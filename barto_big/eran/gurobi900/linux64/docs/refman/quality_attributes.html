@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+
+<!--Converted with LaTeX2HTML 2019 (Released January 1, 2019) -->
+<HTML lang="EN">
+<HEAD>
+<TITLE>Quality Attributes</TITLE>
+<META NAME="description" CONTENT="Quality Attributes">
+<META NAME="keywords" CONTENT="refman">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2019">
+
+<LINK REL="STYLESHEET" HREF="refman.css">
+
+<LINK REL="next" HREF="multi_objective_attributes.html">
+<LINK REL="previous" HREF="general_constraint_attribu.html">
+<LINK REL="next" HREF="boundvio.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A
+ HREF="boundvio.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="attributes.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="iisgenconstr.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="boundvio.html">BoundVio</A>
+<B> Up:</B> <A
+ HREF="attributes.html">Attributes</A>
+<B> Previous:</B> <A
+ HREF="iisgenconstr.html">IISGenConstr</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H2><A ID="SECTION000167000000000000000">
+Quality Attributes</A>
+</H2>
+
+<P>
+These are solution quality attributes.  They are associated with
+the overall model.
+You should use one of
+the various <code>get</code> routines to retrieve the value of an
+attribute.  These are described at the beginning of
+<A HREF="attributes.html#sec:Attributes">this section</A>).
+For the object-oriented interfaces, quality attributes
+are retrieved by invoking the <code>get</code> method on a constraint
+object.  For attributes that can be modified directly by the user, you
+can use one of the various <code>set</code> methods.
+
+<P>
+Attempting to query an attribute that is not available will produce an
+error.  In C, the attribute query routine will return a
+<code>GRB_ERROR_DATA_NOT_AVAILABLE</code> error code.  The object-oriented
+interfaces will throw an exception.
+
+<P>
+<BR><HR>
+<!--Table of Child-Links-->
+<A ID="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL CLASS="ChildLinks">
+<LI><A ID="tex2html4004"
+  HREF="boundvio.html">BoundVio</A>
+<LI><A ID="tex2html4005"
+  HREF="boundsvio.html">BoundSVio</A>
+<LI><A ID="tex2html4006"
+  HREF="boundvioindex.html">BoundVioIndex</A>
+<LI><A ID="tex2html4007"
+  HREF="boundsvioindex.html">BoundSVioIndex</A>
+<LI><A ID="tex2html4008"
+  HREF="boundviosum.html">BoundVioSum</A>
+<LI><A ID="tex2html4009"
+  HREF="boundsviosum.html">BoundSVioSum</A>
+<LI><A ID="tex2html4010"
+  HREF="constrvio.html">ConstrVio</A>
+<LI><A ID="tex2html4011"
+  HREF="constrsvio.html">ConstrSVio</A>
+<LI><A ID="tex2html4012"
+  HREF="constrvioindex.html">ConstrVioIndex</A>
+<LI><A ID="tex2html4013"
+  HREF="constrsvioindex.html">ConstrSVioIndex</A>
+<LI><A ID="tex2html4014"
+  HREF="constrviosum.html">ConstrVioSum</A>
+<LI><A ID="tex2html4015"
+  HREF="constrsviosum.html">ConstrSVioSum</A>
+<LI><A ID="tex2html4016"
+  HREF="constrresidual.html">ConstrResidual</A>
+<LI><A ID="tex2html4017"
+  HREF="constrsresidual.html">ConstrSResidual</A>
+<LI><A ID="tex2html4018"
+  HREF="constrresidualindex.html">ConstrResidualIndex</A>
+<LI><A ID="tex2html4019"
+  HREF="constrsresidualindex.html">ConstrSResidualIndex</A>
+<LI><A ID="tex2html4020"
+  HREF="constrresidualsum.html">ConstrResidualSum</A>
+<LI><A ID="tex2html4021"
+  HREF="constrsresidualsum.html">ConstrSResidualSum</A>
+<LI><A ID="tex2html4022"
+  HREF="dualvio.html">DualVio</A>
+<LI><A ID="tex2html4023"
+  HREF="dualsvio.html">DualSVio</A>
+<LI><A ID="tex2html4024"
+  HREF="dualvioindex.html">DualVioIndex</A>
+<LI><A ID="tex2html4025"
+  HREF="dualsvioindex.html">DualSVioIndex</A>
+<LI><A ID="tex2html4026"
+  HREF="dualviosum.html">DualVioSum</A>
+<LI><A ID="tex2html4027"
+  HREF="dualsviosum.html">DualSVioSum</A>
+<LI><A ID="tex2html4028"
+  HREF="dualresidual.html">DualResidual</A>
+<LI><A ID="tex2html4029"
+  HREF="dualsresidual.html">DualSResidual</A>
+<LI><A ID="tex2html4030"
+  HREF="dualresidualindex.html">DualResidualIndex</A>
+<LI><A ID="tex2html4031"
+  HREF="dualsresidualindex.html">DualSResidualIndex</A>
+<LI><A ID="tex2html4032"
+  HREF="dualresidualsum.html">DualResidualSum</A>
+<LI><A ID="tex2html4033"
+  HREF="dualsresidualsum.html">DualSResidualSum</A>
+<LI><A ID="tex2html4034"
+  HREF="complvio.html">ComplVio</A>
+<LI><A ID="tex2html4035"
+  HREF="complvioindex.html">ComplVioIndex</A>
+<LI><A ID="tex2html4036"
+  HREF="complviosum.html">ComplVioSum</A>
+<LI><A ID="tex2html4037"
+  HREF="intvio.html">IntVio</A>
+<LI><A ID="tex2html4038"
+  HREF="intvioindex.html">IntVioIndex</A>
+<LI><A ID="tex2html4039"
+  HREF="intviosum.html">IntVioSum</A>
+</UL>
+<!--End of Table of Child-Links-->
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A
+ HREF="boundvio.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="attributes.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="iisgenconstr.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="boundvio.html">BoundVio</A>
+<B> Up:</B> <A
+ HREF="attributes.html">Attributes</A>
+<B> Previous:</B> <A
+ HREF="iisgenconstr.html">IISGenConstr</A></DIV>
+<!--End of Navigation Panel-->
+
+</BODY>
+</HTML>

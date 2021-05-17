@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+
+<!--Converted with LaTeX2HTML 2019 (Released January 1, 2019) -->
+<HTML lang="EN">
+<HEAD>
+<TITLE>Model Queries</TITLE>
+<META NAME="description" CONTENT="Model Queries">
+<META NAME="keywords" CONTENT="refman">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2019">
+
+<LINK REL="STYLESHEET" HREF="refman.css">
+
+<LINK REL="next" HREF="c_input_output.html">
+<LINK REL="previous" HREF="c_model_solution.html">
+<LINK REL="next" HREF="c_grbgetcoeff.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A
+ HREF="c_grbgetcoeff.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="c_api_details.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="c_grbsync.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="c_grbgetcoeff.html">GRBgetcoeff</A>
+<B> Up:</B> <A
+ HREF="c_api_details.html">C API Details</A>
+<B> Previous:</B> <A
+ HREF="c_grbsync.html">GRBsync</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H2><A ID="SECTION00024000000000000000">
+Model Queries</A>
+</H2>
+
+<P>
+While most model related queries are handled through the
+<A HREF="attributes.html#sec:Attributes">attribute</A> interface, a few fall outside
+of that interface.  These are described here.
+
+<P>
+<BR><HR>
+<!--Table of Child-Links-->
+<A ID="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL CLASS="ChildLinks">
+<LI><A ID="tex2html1833"
+  HREF="c_grbgetcoeff.html">GRBgetcoeff</A>
+<LI><A ID="tex2html1834"
+  HREF="c_grbgetconstrbyname.html">GRBgetconstrbyname</A>
+<LI><A ID="tex2html1835"
+  HREF="c_grbgetconstrs.html">GRBgetconstrs</A>
+<LI><A ID="tex2html1836"
+  HREF="c_grbgetenv.html">GRBgetenv</A>
+<LI><A ID="tex2html1837"
+  HREF="c_grbgetgenconstrmax.html">GRBgetgenconstrMax</A>
+<LI><A ID="tex2html1838"
+  HREF="c_grbgetgenconstrmin.html">GRBgetgenconstrMin</A>
+<LI><A ID="tex2html1839"
+  HREF="c_grbgetgenconstrabs.html">GRBgetgenconstrAbs</A>
+<LI><A ID="tex2html1840"
+  HREF="c_grbgetgenconstrand.html">GRBgetgenconstrAnd</A>
+<LI><A ID="tex2html1841"
+  HREF="c_grbgetgenconstror.html">GRBgetgenconstrOr</A>
+<LI><A ID="tex2html1842"
+  HREF="c_grbgetgenconstrindicator.html">GRBgetgenconstrIndicator</A>
+<LI><A ID="tex2html1843"
+  HREF="c_grbgetgenconstrpwl.html">GRBgetgenconstrPWL</A>
+<LI><A ID="tex2html1844"
+  HREF="c_grbgetgenconstrpoly.html">GRBgetgenconstrPoly</A>
+<LI><A ID="tex2html1845"
+  HREF="c_grbgetgenconstrexp.html">GRBgetgenconstrExp</A>
+<LI><A ID="tex2html1846"
+  HREF="c_grbgetgenconstrexpa.html">GRBgetgenconstrExpA</A>
+<LI><A ID="tex2html1847"
+  HREF="c_grbgetgenconstrlog.html">GRBgetgenconstrLog</A>
+<LI><A ID="tex2html1848"
+  HREF="c_grbgetgenconstrloga.html">GRBgetgenconstrLogA</A>
+<LI><A ID="tex2html1849"
+  HREF="c_grbgetgenconstrpow.html">GRBgetgenconstrPow</A>
+<LI><A ID="tex2html1850"
+  HREF="c_grbgetgenconstrsin.html">GRBgetgenconstrSin</A>
+<LI><A ID="tex2html1851"
+  HREF="c_grbgetgenconstrcos.html">GRBgetgenconstrCos</A>
+<LI><A ID="tex2html1852"
+  HREF="c_grbgetgenconstrtan.html">GRBgetgenconstrTan</A>
+<LI><A ID="tex2html1853"
+  HREF="c_grbgetjsonsolution.html">GRBgetjsonsolution</A>
+<LI><A ID="tex2html1854"
+  HREF="c_grbgetpwlobj.html">GRBgetpwlobj</A>
+<LI><A ID="tex2html1855"
+  HREF="c_grbgetq.html">GRBgetq</A>
+<LI><A ID="tex2html1856"
+  HREF="c_grbgetqconstr.html">GRBgetqconstr</A>
+<LI><A ID="tex2html1857"
+  HREF="c_grbgetqconstrbyname.html">GRBgetqconstrbyname</A>
+<LI><A ID="tex2html1858"
+  HREF="c_grbgetsos.html">GRBgetsos</A>
+<LI><A ID="tex2html1859"
+  HREF="c_grbgetvarbyname.html">GRBgetvarbyname</A>
+<LI><A ID="tex2html1860"
+  HREF="c_grbgetvars.html">GRBgetvars</A>
+<LI><A ID="tex2html1861"
+  HREF="c_grbsinglescenariomodel.html">GRBsinglescenariomodel</A>
+<LI><A ID="tex2html1862"
+  HREF="c_grbxgetconstrs.html">GRBXgetconstrs</A>
+<LI><A ID="tex2html1863"
+  HREF="c_grbxgetvars.html">GRBXgetvars</A>
+</UL>
+<!--End of Table of Child-Links-->
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A
+ HREF="c_grbgetcoeff.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="c_api_details.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="c_grbsync.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="c_grbgetcoeff.html">GRBgetcoeff</A>
+<B> Up:</B> <A
+ HREF="c_api_details.html">C API Details</A>
+<B> Previous:</B> <A
+ HREF="c_grbsync.html">GRBsync</A></DIV>
+<!--End of Navigation Panel-->
+
+</BODY>
+</HTML>

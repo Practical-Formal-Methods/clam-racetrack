@@ -1,0 +1,552 @@
+<!DOCTYPE HTML>
+
+<!--Converted with LaTeX2HTML 2019 (Released January 1, 2019) -->
+<HTML lang="EN">
+<HEAD>
+<TITLE>C++ API Details</TITLE>
+<META NAME="description" CONTENT="C++ API Details">
+<META NAME="keywords" CONTENT="refman">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2019">
+
+<LINK REL="STYLESHEET" HREF="refman.css">
+
+<LINK REL="next" HREF="ja_java_api_overview.html">
+<LINK REL="previous" HREF="cpp_api_overview.html">
+<LINK REL="next" HREF="cpp_grbenv.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A
+ HREF="cpp_grbenv.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="refman.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="cpp_api_overview.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="cpp_grbenv.html">GRBEnv</A>
+<B> Up:</B> <A
+ HREF="refman.html">Gurobi Optimizer Reference Manual</A>
+<B> Previous:</B> <A
+ HREF="cpp_api_overview.html">C++ API Overview</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H1><A ID="SECTION00040000000000000000">
+C++ API Details</A>
+</H1>
+
+<P>
+<A ID="sec:C++-details"></A>
+<P>
+<BR><HR>
+<!--Table of Child-Links-->
+<A ID="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL CLASS="ChildLinks">
+<LI><A ID="tex2html1940"
+  HREF="cpp_grbenv.html">GRBEnv</A>
+<UL>
+<LI><A ID="tex2html1941"
+  HREF="cpp_grbenv2.html">GRBEnv()</A>
+<LI><A ID="tex2html1942"
+  HREF="cpp_grbenv_get.html">GRBEnv::get()</A>
+<LI><A ID="tex2html1943"
+  HREF="cpp_grbenv_geterrormsg.html">GRBEnv::getErrorMsg()</A>
+<LI><A ID="tex2html1944"
+  HREF="cpp_grbenv_getparaminfo.html">GRBEnv::getParamInfo()</A>
+<LI><A ID="tex2html1945"
+  HREF="cpp_grbenv_message.html">GRBEnv::message()</A>
+<LI><A ID="tex2html1946"
+  HREF="cpp_grbenv_readparams.html">GRBEnv::readParams()</A>
+<LI><A ID="tex2html1947"
+  HREF="cpp_grbenv_resetparams.html">GRBEnv::resetParams()</A>
+<LI><A ID="tex2html1948"
+  HREF="cpp_grbenv_set.html">GRBEnv::set()</A>
+<LI><A ID="tex2html1949"
+  HREF="cpp_grbenv_start.html">GRBEnv::start()</A>
+<LI><A ID="tex2html1950"
+  HREF="cpp_grbenv_writeparams.html">GRBEnv::writeParams()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html1951"
+  HREF="cpp_grbmodel.html">GRBModel</A>
+<UL>
+<LI><A ID="tex2html1952"
+  HREF="cpp_grbmodel2.html">GRBModel()</A>
+<LI><A ID="tex2html1953"
+  HREF="cpp_grbmodel_addconstr.html">GRBModel::addConstr()</A>
+<LI><A ID="tex2html1954"
+  HREF="cpp_grbmodel_addconstrs.html">GRBModel::addConstrs()</A>
+<LI><A ID="tex2html1955"
+  HREF="cpp_grbmodel_addgenconstrx.html">GRBModel::addGenConstrXxx()</A>
+<UL>
+<LI><A ID="tex2html1956"
+  HREF="cpp_grbmodel_addgenconstrm.html">GRBModel::addGenConstrMax()</A>
+<LI><A ID="tex2html1957"
+  HREF="cpp_grbmodel_addgenconstrm2.html">GRBModel::addGenConstrMin()</A>
+<LI><A ID="tex2html1958"
+  HREF="cpp_grbmodel_addgenconstra.html">GRBModel::addGenConstrAbs()</A>
+<LI><A ID="tex2html1959"
+  HREF="cpp_grbmodel_addgenconstra2.html">GRBModel::addGenConstrAnd()</A>
+<LI><A ID="tex2html1960"
+  HREF="cpp_grbmodel_addgenconstro.html">GRBModel::addGenConstrOr()</A>
+<LI><A ID="tex2html1961"
+  HREF="cpp_grbmodel_addgenconstri.html">GRBModel::addGenConstrIndicator()</A>
+<LI><A ID="tex2html1962"
+  HREF="cpp_grbmodel_addgenconstrp.html">GRBModel::addGenConstrPWL()</A>
+<LI><A ID="tex2html1963"
+  HREF="cpp_grbmodel_addgenconstrp2.html">GRBModel::addGenConstrPoly()</A>
+<LI><A ID="tex2html1964"
+  HREF="cpp_grbmodel_addgenconstre.html">GRBModel::addGenConstrExp()</A>
+<LI><A ID="tex2html1965"
+  HREF="cpp_grbmodel_addgenconstre2.html">GRBModel::addGenConstrExpA()</A>
+<LI><A ID="tex2html1966"
+  HREF="cpp_grbmodel_addgenconstrl.html">GRBModel::addGenConstrLog()</A>
+<LI><A ID="tex2html1967"
+  HREF="cpp_grbmodel_addgenconstrl2.html">GRBModel::addGenConstrLogA()</A>
+<LI><A ID="tex2html1968"
+  HREF="cpp_grbmodel_addgenconstrp3.html">GRBModel::addGenConstrPow()</A>
+<LI><A ID="tex2html1969"
+  HREF="cpp_grbmodel_addgenconstrs.html">GRBModel::addGenConstrSin()</A>
+<LI><A ID="tex2html1970"
+  HREF="cpp_grbmodel_addgenconstrc.html">GRBModel::addGenConstrCos()</A>
+<LI><A ID="tex2html1971"
+  HREF="cpp_grbmodel_addgenconstrt.html">GRBModel::addGenConstrTan()</A>
+</UL>
+<LI><A ID="tex2html1972"
+  HREF="cpp_grbmodel_addqconstr.html">GRBModel::addQConstr()</A>
+<LI><A ID="tex2html1973"
+  HREF="cpp_grbmodel_addrange.html">GRBModel::addRange()</A>
+<LI><A ID="tex2html1974"
+  HREF="cpp_grbmodel_addranges.html">GRBModel::addRanges()</A>
+<LI><A ID="tex2html1975"
+  HREF="cpp_grbmodel_addsos.html">GRBModel::addSOS()</A>
+<LI><A ID="tex2html1976"
+  HREF="cpp_grbmodel_addvar.html">GRBModel::addVar()</A>
+<LI><A ID="tex2html1977"
+  HREF="cpp_grbmodel_addvars.html">GRBModel::addVars()</A>
+<LI><A ID="tex2html1978"
+  HREF="cpp_grbmodel_chgcoeff.html">GRBModel::chgCoeff()</A>
+<LI><A ID="tex2html1979"
+  HREF="cpp_grbmodel_chgcoeffs.html">GRBModel::chgCoeffs()</A>
+<LI><A ID="tex2html1980"
+  HREF="cpp_grbmodel_computeiis.html">GRBModel::computeIIS()</A>
+<LI><A ID="tex2html1981"
+  HREF="cpp_grbmodel_discardconcur.html">GRBModel::discardConcurrentEnvs()</A>
+<LI><A ID="tex2html1982"
+  HREF="cpp_grbmodel_discardmultio.html">GRBModel::discardMultiobjEnvs()</A>
+<LI><A ID="tex2html1983"
+  HREF="cpp_grbmodel_feasrelax.html">GRBModel::feasRelax()</A>
+<LI><A ID="tex2html1984"
+  HREF="cpp_grbmodel_fixedmodel.html">GRBModel::fixedModel()</A>
+<LI><A ID="tex2html1985"
+  HREF="cpp_grbmodel_get.html">GRBModel::get()</A>
+<LI><A ID="tex2html1986"
+  HREF="cpp_grbmodel_getcoeff.html">GRBModel::getCoeff()</A>
+<LI><A ID="tex2html1987"
+  HREF="cpp_grbmodel_getcol.html">GRBModel::getCol()</A>
+<LI><A ID="tex2html1988"
+  HREF="cpp_grbmodel_getconcurrent.html">GRBModel::getConcurrentEnv()</A>
+<LI><A ID="tex2html1989"
+  HREF="cpp_grbmodel_getconstrbyna.html">GRBModel::getConstrByName()</A>
+<LI><A ID="tex2html1990"
+  HREF="cpp_grbmodel_getconstrs.html">GRBModel::getConstrs()</A>
+<LI><A ID="tex2html1991"
+  HREF="cpp_grbmodel_getenv.html">GRBModel::getEnv()</A>
+<LI><A ID="tex2html1992"
+  HREF="cpp_grbmodel_getgenconstrx.html">GRBModel::getGenConstrXxx()</A>
+<UL>
+<LI><A ID="tex2html1993"
+  HREF="cpp_grbmodel_getgenconstrm.html">GRBModel::getGenConstrMax</A>
+<LI><A ID="tex2html1994"
+  HREF="cpp_grbmodel_getgenconstrm2.html">GRBModel::getGenConstrMin</A>
+<LI><A ID="tex2html1995"
+  HREF="cpp_grbmodel_getgenconstra.html">GRBModel::getGenConstrAbs</A>
+<LI><A ID="tex2html1996"
+  HREF="cpp_grbmodel_getgenconstra2.html">GRBModel::getGenConstrAnd</A>
+<LI><A ID="tex2html1997"
+  HREF="cpp_grbmodel_getgenconstro.html">GRBModel::getGenConstrOr</A>
+<LI><A ID="tex2html1998"
+  HREF="cpp_grbmodel_getgenconstri.html">GRBModel::getGenConstrIndicator</A>
+<LI><A ID="tex2html1999"
+  HREF="cpp_grbmodel_getgenconstrp.html">GRBModel::getGenConstrPWL</A>
+<LI><A ID="tex2html2000"
+  HREF="cpp_grbmodel_getgenconstrp2.html">GRBModel::getGenConstrPoly</A>
+<LI><A ID="tex2html2001"
+  HREF="cpp_grbmodel_getgenconstre.html">GRBModel::getGenConstrExp</A>
+<LI><A ID="tex2html2002"
+  HREF="cpp_grbmodel_getgenconstre2.html">GRBModel::getGenConstrExpA</A>
+<LI><A ID="tex2html2003"
+  HREF="cpp_grbmodel_getgenconstrl.html">GRBModel::getGenConstrLog</A>
+<LI><A ID="tex2html2004"
+  HREF="cpp_grbmodel_getgenconstrl2.html">GRBModel::getGenConstrLogA</A>
+<LI><A ID="tex2html2005"
+  HREF="cpp_grbmodel_getgenconstrp3.html">GRBModel::getGenConstrPow</A>
+<LI><A ID="tex2html2006"
+  HREF="cpp_grbmodel_getgenconstrs.html">GRBModel::getGenConstrSin</A>
+<LI><A ID="tex2html2007"
+  HREF="cpp_grbmodel_getgenconstrc.html">GRBModel::getGenConstrCos</A>
+<LI><A ID="tex2html2008"
+  HREF="cpp_grbmodel_getgenconstrt.html">GRBModel::getGenConstrTan</A>
+</UL>
+<LI><A ID="tex2html2009"
+  HREF="cpp_grbmodel_getgenconstrs2.html">GRBModel::getGenConstrs()</A>
+<LI><A ID="tex2html2010"
+  HREF="cpp_grbmodel_getjsonsoluti.html">GRBModel::getJSONSolution()</A>
+<LI><A ID="tex2html2011"
+  HREF="cpp_grbmodel_getmultiobjen.html">GRBModel::getMultiobjEnv()</A>
+<LI><A ID="tex2html2012"
+  HREF="cpp_grbmodel_getobjective.html">GRBModel::getObjective()</A>
+<LI><A ID="tex2html2013"
+  HREF="cpp_grbmodel_getpwlobj.html">GRBModel::getPWLObj()</A>
+<LI><A ID="tex2html2014"
+  HREF="cpp_grbmodel_getqcrow.html">GRBModel::getQCRow()</A>
+<LI><A ID="tex2html2015"
+  HREF="cpp_grbmodel_getqconstrs.html">GRBModel::getQConstrs()</A>
+<LI><A ID="tex2html2016"
+  HREF="cpp_grbmodel_getrow.html">GRBModel::getRow()</A>
+<LI><A ID="tex2html2017"
+  HREF="cpp_grbmodel_getsos.html">GRBModel::getSOS()</A>
+<LI><A ID="tex2html2018"
+  HREF="cpp_grbmodel_getsoss.html">GRBModel::getSOSs()</A>
+<LI><A ID="tex2html2019"
+  HREF="cpp_grbmodel_gettuneresult.html">GRBModel::getTuneResult()</A>
+<LI><A ID="tex2html2020"
+  HREF="cpp_grbmodel_getvarbyname.html">GRBModel::getVarByName()</A>
+<LI><A ID="tex2html2021"
+  HREF="cpp_grbmodel_getvars.html">GRBModel::getVars()</A>
+<LI><A ID="tex2html2022"
+  HREF="cpp_grbmodel_optimize.html">GRBModel::optimize()</A>
+<LI><A ID="tex2html2023"
+  HREF="cpp_grbmodel_optimizeasync.html">GRBModel::optimizeasync()</A>
+<LI><A ID="tex2html2024"
+  HREF="cpp_grbmodel_optimizebatch.html">GRBModel::optimizeBatch()</A>
+<LI><A ID="tex2html2025"
+  HREF="cpp_grbmodel_presolve.html">GRBModel::presolve()</A>
+<LI><A ID="tex2html2026"
+  HREF="cpp_grbmodel_read.html">GRBModel::read()</A>
+<LI><A ID="tex2html2027"
+  HREF="cpp_grbmodel_remove.html">GRBModel::remove()</A>
+<LI><A ID="tex2html2028"
+  HREF="cpp_grbmodel_reset.html">GRBModel::reset()</A>
+<LI><A ID="tex2html2029"
+  HREF="cpp_grbmodel_setcallback.html">GRBModel::setCallback()</A>
+<LI><A ID="tex2html2030"
+  HREF="cpp_grbmodel_set.html">GRBModel::set()</A>
+<LI><A ID="tex2html2031"
+  HREF="cpp_grbmodel_setobjective.html">GRBModel::setObjective()</A>
+<LI><A ID="tex2html2032"
+  HREF="cpp_grbmodel_setobjectiven.html">GRBModel::setObjectiveN()</A>
+<LI><A ID="tex2html2033"
+  HREF="cpp_grbmodel_setpwlobj.html">GRBModel::setPWLObj()</A>
+<LI><A ID="tex2html2034"
+  HREF="cpp_grbmodel_singlescenari.html">GRBModel::singleScenarioModel()</A>
+<LI><A ID="tex2html2035"
+  HREF="cpp_grbmodel_sync.html">GRBModel::sync()</A>
+<LI><A ID="tex2html2036"
+  HREF="cpp_grbmodel_terminate.html">GRBModel::terminate()</A>
+<LI><A ID="tex2html2037"
+  HREF="cpp_grbmodel_tune.html">GRBModel::tune()</A>
+<LI><A ID="tex2html2038"
+  HREF="cpp_grbmodel_update.html">GRBModel::update()</A>
+<LI><A ID="tex2html2039"
+  HREF="cpp_grbmodel_write.html">GRBModel::write()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2040"
+  HREF="cpp_grbvar.html">GRBVar</A>
+<UL>
+<LI><A ID="tex2html2041"
+  HREF="cpp_grbvar_get.html">GRBVar::get()</A>
+<LI><A ID="tex2html2042"
+  HREF="cpp_grbvar_index.html">GRBVar::index()</A>
+<LI><A ID="tex2html2043"
+  HREF="cpp_grbvar_sameas.html">GRBVar::sameAs()</A>
+<LI><A ID="tex2html2044"
+  HREF="cpp_grbvar_set.html">GRBVar::set()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2045"
+  HREF="cpp_grbconstr.html">GRBConstr</A>
+<UL>
+<LI><A ID="tex2html2046"
+  HREF="cpp_grbconstr_get.html">GRBConstr::get()</A>
+<LI><A ID="tex2html2047"
+  HREF="cpp_grbconstr_index.html">GRBConstr::index()</A>
+<LI><A ID="tex2html2048"
+  HREF="cpp_grbconstr_sameas.html">GRBConstr::sameAs()</A>
+<LI><A ID="tex2html2049"
+  HREF="cpp_grbconstr_set.html">GRBConstr::set()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2050"
+  HREF="cpp_grbqconstr.html">GRBQConstr</A>
+<UL>
+<LI><A ID="tex2html2051"
+  HREF="cpp_grbqconstr_get.html">GRBQConstr::get()</A>
+<LI><A ID="tex2html2052"
+  HREF="cpp_grbqconstr_set.html">GRBQConstr::set()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2053"
+  HREF="cpp_grbsos.html">GRBSOS</A>
+<UL>
+<LI><A ID="tex2html2054"
+  HREF="cpp_grbsos_get.html">GRBSOS::get()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2055"
+  HREF="cpp_grbgenconstr.html">GRBGenConstr</A>
+<UL>
+<LI><A ID="tex2html2056"
+  HREF="cpp_grbgenconstr_get.html">GRBGenConstr::get()</A>
+<LI><A ID="tex2html2057"
+  HREF="cpp_grbgenconstr_set.html">GRBGenConstr::set()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2058"
+  HREF="cpp_grbexpr.html">GRBExpr</A>
+<UL>
+<LI><A ID="tex2html2059"
+  HREF="cpp_grbexpr_getvalue.html">GRBExpr::getValue()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2060"
+  HREF="cpp_grblinexpr.html">GRBLinExpr</A>
+<UL>
+<LI><A ID="tex2html2061"
+  HREF="cpp_grblinexpr2.html">GRBLinExpr()</A>
+<LI><A ID="tex2html2062"
+  HREF="cpp_grblinexpr_addterms.html">GRBLinExpr::addTerms()</A>
+<LI><A ID="tex2html2063"
+  HREF="cpp_grblinexpr_clear.html">GRBLinExpr::clear()</A>
+<LI><A ID="tex2html2064"
+  HREF="cpp_grblinexpr_getconstant.html">GRBLinExpr::getConstant()</A>
+<LI><A ID="tex2html2065"
+  HREF="cpp_grblinexpr_getcoeff.html">GRBLinExpr::getCoeff()</A>
+<LI><A ID="tex2html2066"
+  HREF="cpp_grblinexpr_getvalue.html">GRBLinExpr::getValue()</A>
+<LI><A ID="tex2html2067"
+  HREF="cpp_grblinexpr_getvar.html">GRBLinExpr::getVar()</A>
+<LI><A ID="tex2html2068"
+  HREF="cpp_grblinexpr_oper_eq.html">GRBLinExpr::operator=</A>
+<LI><A ID="tex2html2069"
+  HREF="cpp_grblinexpr_oper_plus.html">GRBLinExpr::operator+</A>
+<LI><A ID="tex2html2070"
+  HREF="cpp_grblinexpr_oper_minus.html">GRBLinExpr::operator-</A>
+<LI><A ID="tex2html2071"
+  HREF="cpp_grblinexpr_oper_pe.html">GRBLinExpr::operator+=</A>
+<LI><A ID="tex2html2072"
+  HREF="cpp_grblinexpr_oper_me.html">GRBLinExpr::operator-=</A>
+<LI><A ID="tex2html2073"
+  HREF="cpp_grblinexpr_oper_te.html">GRBLinExpr::operator*=</A>
+<LI><A ID="tex2html2074"
+  HREF="cpp_grblinexpr_remove.html">GRBLinExpr::remove()</A>
+<LI><A ID="tex2html2075"
+  HREF="cpp_grblinexpr_size.html">GRBLinExpr::size()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2076"
+  HREF="cpp_grbquadexpr.html">GRBQuadExpr</A>
+<UL>
+<LI><A ID="tex2html2077"
+  HREF="cpp_grbquadexpr2.html">GRBQuadExpr()</A>
+<LI><A ID="tex2html2078"
+  HREF="cpp_grbquadexpr_addterm.html">GRBQuadExpr::addTerm()</A>
+<LI><A ID="tex2html2079"
+  HREF="cpp_grbquadexpr_addterms.html">GRBQuadExpr::addTerms()</A>
+<LI><A ID="tex2html2080"
+  HREF="cpp_grbquadexpr_clear.html">GRBQuadExpr::clear()</A>
+<LI><A ID="tex2html2081"
+  HREF="cpp_grbquadexpr_getcoeff.html">GRBQuadExpr::getCoeff()</A>
+<LI><A ID="tex2html2082"
+  HREF="cpp_grbquadexpr_getlinexpr.html">GRBQuadExpr::getLinExpr()</A>
+<LI><A ID="tex2html2083"
+  HREF="cpp_grbquadexpr_getvalue.html">GRBQuadExpr::getValue()</A>
+<LI><A ID="tex2html2084"
+  HREF="cpp_grbquadexpr_getvar1.html">GRBQuadExpr::getVar1()</A>
+<LI><A ID="tex2html2085"
+  HREF="cpp_grbquadexpr_getvar2.html">GRBQuadExpr::getVar2()</A>
+<LI><A ID="tex2html2086"
+  HREF="cpp_grbquadexpr_oper_eq.html">GRBQuadExpr::operator=</A>
+<LI><A ID="tex2html2087"
+  HREF="cpp_grbquadexpr_oper_plus.html">GRBQuadExpr::operator+</A>
+<LI><A ID="tex2html2088"
+  HREF="cpp_grbquadexpr_oper_minus.html">GRBQuadExpr::operator-</A>
+<LI><A ID="tex2html2089"
+  HREF="cpp_grbquadexpr_oper_pe.html">GRBQuadExpr::operator+=</A>
+<LI><A ID="tex2html2090"
+  HREF="cpp_grbquadexpr_oper_me.html">GRBQuadExpr::operator-=</A>
+<LI><A ID="tex2html2091"
+  HREF="cpp_grbquadexpr_oper_te.html">GRBQuadExpr::operator*=</A>
+<LI><A ID="tex2html2092"
+  HREF="cpp_grbquadexpr_remove.html">GRBQuadExpr::remove()</A>
+<LI><A ID="tex2html2093"
+  HREF="cpp_grbquadexpr_size.html">GRBQuadExpr::size()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2094"
+  HREF="cpp_grbtempconstr.html">GRBTempConstr</A>
+<LI><A ID="tex2html2095"
+  HREF="cpp_grbcolumn.html">GRBColumn</A>
+<UL>
+<LI><A ID="tex2html2096"
+  HREF="cpp_grbcolumn2.html">GRBColumn()</A>
+<LI><A ID="tex2html2097"
+  HREF="cpp_grbcolumn_addterm.html">GRBColumn::addTerm()</A>
+<LI><A ID="tex2html2098"
+  HREF="cpp_grbcolumn_addterms.html">GRBColumn::addTerms()</A>
+<LI><A ID="tex2html2099"
+  HREF="cpp_grbcolumn_clear.html">GRBColumn::clear()</A>
+<LI><A ID="tex2html2100"
+  HREF="cpp_grbcolumn_getcoeff.html">GRBColumn::getCoeff()</A>
+<LI><A ID="tex2html2101"
+  HREF="cpp_grbcolumn_getconstr.html">GRBColumn::getConstr()</A>
+<LI><A ID="tex2html2102"
+  HREF="cpp_grbcolumn_remove.html">GRBColumn::remove()</A>
+<LI><A ID="tex2html2103"
+  HREF="cpp_grbcolumn_size.html">GRBColumn::size()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2104"
+  HREF="cpp_grbcallback.html">GRBCallback</A>
+<UL>
+<LI><A ID="tex2html2105"
+  HREF="cpp_grbcallback2.html">GRBCallback()</A>
+<LI><A ID="tex2html2106"
+  HREF="cpp_grbcallback_abort.html">GRBCallback::abort()</A>
+<LI><A ID="tex2html2107"
+  HREF="cpp_grbcallback_addcut.html">GRBCallback::addCut()</A>
+<LI><A ID="tex2html2108"
+  HREF="cpp_grbcallback_addlazy.html">GRBCallback::addLazy()</A>
+<LI><A ID="tex2html2109"
+  HREF="cpp_grbcallback_getdoublei.html">GRBCallback::getDoubleInfo()</A>
+<LI><A ID="tex2html2110"
+  HREF="cpp_grbcallback_getintinfo.html">GRBCallback::getIntInfo()</A>
+<LI><A ID="tex2html2111"
+  HREF="cpp_grbcallback_getnoderel.html">GRBCallback::getNodeRel()</A>
+<LI><A ID="tex2html2112"
+  HREF="cpp_grbcallback_getsolutio.html">GRBCallback::getSolution()</A>
+<LI><A ID="tex2html2113"
+  HREF="cpp_grbcallback_getstringi.html">GRBCallback::getStringInfo()</A>
+<LI><A ID="tex2html2114"
+  HREF="cpp_grbcallback_setsolutio.html">GRBCallback::setSolution()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2115"
+  HREF="cpp_grbcallback_stoponemul.html">GRBCallback::stopOneMultiObj()</A>
+<UL>
+<LI><A ID="tex2html2116"
+  HREF="cpp_grbcallback_usesolutio.html">GRBCallback::useSolution()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2117"
+  HREF="cpp_grbexception.html">GRBException</A>
+<UL>
+<LI><A ID="tex2html2118"
+  HREF="cpp_grbexception2.html">GRBException()</A>
+<LI><A ID="tex2html2119"
+  HREF="cpp_grbexception_geterrorc.html">GRBException::getErrorCode()</A>
+<LI><A ID="tex2html2120"
+  HREF="cpp_grbexception_getmessag.html">GRBException::getMessage()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2121"
+  HREF="cpp_grbbatch.html">GRBBatch</A>
+<UL>
+<LI><A ID="tex2html2122"
+  HREF="cpp_grbbatch2.html">GRBBatch()</A>
+<LI><A ID="tex2html2123"
+  HREF="cpp_grbbatch_abort.html">GRBBatch::abort()</A>
+<LI><A ID="tex2html2124"
+  HREF="cpp_grbbatch_discard.html">GRBBatch::discard()</A>
+<LI><A ID="tex2html2125"
+  HREF="cpp_grbbatch_getjsonsoluti.html">GRBBatch::getJSONSolution()</A>
+<LI><A ID="tex2html2126"
+  HREF="cpp_grbbatch_get.html">GRBBatch::get()</A>
+<LI><A ID="tex2html2127"
+  HREF="cpp_grbbatch_retry.html">GRBBatch::retry()</A>
+<LI><A ID="tex2html2128"
+  HREF="cpp_grbbatch_update.html">GRBBatch::update()</A>
+<LI><A ID="tex2html2129"
+  HREF="cpp_grbbatch_writejsonsolu.html">GRBBatch::writeJSONSolution()</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2130"
+  HREF="cpp_non_member_functions.html">Non-Member Functions</A>
+<UL>
+<LI><A ID="tex2html2131"
+  HREF="cpp_oper_equal.html">operator==</A>
+<LI><A ID="tex2html2132"
+  HREF="cpp_oper_le.html">operator&lt;=</A>
+<LI><A ID="tex2html2133"
+  HREF="cpp_oper_ge.html">operator&gt;=</A>
+<LI><A ID="tex2html2134"
+  HREF="cpp_oper_plus.html">operator+</A>
+<LI><A ID="tex2html2135"
+  HREF="cpp_oper_minus.html">operator-</A>
+<LI><A ID="tex2html2136"
+  HREF="cpp_oper_times.html">operator*</A>
+<LI><A ID="tex2html2137"
+  HREF="cpp_oper_div.html">operator/</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2138"
+  HREF="cpp_attribute_enums.html">Attribute Enums</A>
+<UL>
+<LI><A ID="tex2html2139"
+  HREF="cpp_grb_charattr.html">GRB_CharAttr</A>
+<LI><A ID="tex2html2140"
+  HREF="cpp_grb_doubleattr.html">GRB_DoubleAttr</A>
+<LI><A ID="tex2html2141"
+  HREF="cpp_grb_intattr.html">GRB_IntAttr</A>
+<LI><A ID="tex2html2142"
+  HREF="cpp_grb_stringattr.html">GRB_StringAttr</A>
+</UL>
+<BR>
+<LI><A ID="tex2html2143"
+  HREF="cpp_parameter_enums.html">Parameter Enums</A>
+<UL>
+<LI><A ID="tex2html2144"
+  HREF="cpp_grb_doubleparam.html">GRB_DoubleParam</A>
+<LI><A ID="tex2html2145"
+  HREF="cpp_grb_intparam.html">GRB_IntParam</A>
+<LI><A ID="tex2html2146"
+  HREF="cpp_grb_stringparam.html">GRB_StringParam</A>
+</UL></UL>
+<!--End of Table of Child-Links-->
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A
+ HREF="cpp_grbenv.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="refman.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="cpp_api_overview.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="cpp_grbenv.html">GRBEnv</A>
+<B> Up:</B> <A
+ HREF="refman.html">Gurobi Optimizer Reference Manual</A>
+<B> Previous:</B> <A
+ HREF="cpp_api_overview.html">C++ API Overview</A></DIV>
+<!--End of Navigation Panel-->
+
+</BODY>
+</HTML>

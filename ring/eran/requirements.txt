@@ -1,0 +1,5 @@
+numpy<1.17
+tensorflow==1.14.0
+onnx
+pycddlib
+tqdm

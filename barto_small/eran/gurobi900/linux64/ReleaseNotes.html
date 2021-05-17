@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Gurobi Optimization</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<style type="text/css">
+	body {
+		background-color: #E7E9EB;
+		padding: 20px 40px;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size:11pt;
+		line-height:20px;
+		margin:0px;
+	}
+	img {
+		border: none;
+	}
+	h2 {
+		margin: 36px 0 8px;
+	}
+	.menu {
+		padding-bottom: 40px;
+	}
+	.menu td {
+		padding-right: 30px;
+		font-size: 14pt;
+		font-weight: bold;
+	}
+	.menu a {
+		text-decoration: none;
+		color: #292929;
+	}
+	.menu a:hover {
+		color: #909090;
+	}
+	.platforms {
+		border-collapse: collapse;
+	}
+	.platforms td, .platforms th {
+		font-size: 10pt;
+		border: solid 1px black;
+		padding: 4px 8px;
+		text-align: left;
+	}
+	</style>
+</head>
+<body>
+<table class='menu'>
+	<tr>
+		<td><a href="http://www.gurobi.com"><img style='width:211px' src="docs/logo.png" alt="Gurobi Optimization" title="Gurobi Optimization" /></a></td>
+		<td><a href="http://www.gurobi.com">gurobi.com</a></td>
+		<td><a href="docs/refman/refman.html">Reference Manual</a></td>
+		<td><a href="https://support.gurobi.com">Customer Support</a></td>
+	</tr>
+</table>
+<h1>
+	WELCOME
+</h1>
+<p>
+	You have successfully installed version 9.0 of the Gurobi Optimizer.
+</p>
+<p>
+	You'll find instructions for setting up your Gurobi license in this document, as well as a list of supported platforms, and Release Notes and guidelines for converting existing Gurobi code to run with this new version. Once you have finished browsing this document, you should refer to the <a href="docs/quickstart/quickstart.html">Quick Start Guide</a>, the <a href="docs/examples/examples.html">Example Tour</a>, the <a href="docs/refman/refman.html">Reference Manual</a>, or the <a href="docs/remoteservices/remoteservices.html">Remote Services Reference Manual</a> to get started using the Gurobi Optimizer.
+</p>
+<h2>
+	Obtaining Your License
+</h2>
+<p>
+To obtain a Gurobi 9 license, you will need to visit the <a href="http://www.gurobi.com/downloads/licenses/license-center" target="_blank"> Gurobi License Center</a>. If you are a commercial user under maintenance, you should see your Gurobi 9 license under <a href="http://www.gurobi.com/download/licenses/current">Current Gurobi Licenses</a>.  If you would like to request a free academic license, you can do so from the <a href="http://www.gurobi.com/download/licenses/free-academic">Free Academic License</a> page. Once you have a license on the Gurobi web site, you will need to follow the instructions for installing a license in the <a href="docs/quickstart/quickstart.html">Quick Start Guide</a>.
+</p>
+<h2>
+	Supported Platforms for Version 9.0
+</h2>
+<table class='platforms'>
+	<tr>
+		<th>Platform</th>
+		<th>Operating System</th>
+		<th>Compiler</th>
+		<th>Notes</th>
+	</tr>
+	<tr>
+		<td rowspan="3">Windows 64-bit (win64)</td>
+		<td>Windows 7, Windows 10, Windows Server 2008 R2, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019</td>
+		<td>Visual Studio 2015</td>
+		<td>Use gurobi_c++md2015.lib (e.g.) for C++</td>
+	</tr>
+	<tr>
+		<td>Windows 7, Windows 10, Windows Server 2008 R2, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019</td>
+		<td>Visual Studio 2017</td>
+		<td>Use gurobi_c++md2017.lib (e.g.) for C++</td>
+	</tr>
+	<tr>
+		<td>Windows 7, Windows 10, Windows Server 2008 R2, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019</td>
+		<td>Visual Studio 2019</td>
+		<td>Use gurobi_c++md2019.lib (e.g.) for C++</td>
+	</tr>
+	<tr>
+		<td rowspan="3">Linux&reg; x86-64 64-bit (linux64)</td>
+		<td>Red Hat&reg; Enterprise Linux 6.7-6.10, 7.3-7.7, 8.0-8.1 (and the corresponding CentOS distributions)</td>
+		<td>GCC 4.4/4.8</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>SUSE&reg; Enterprise Linux 12, 15</td>
+		<td>GCC 4.3/4.4/4.8</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Ubuntu&reg; 16.04, 18.04, 19.04</td>
+		<td>GCC 4.6/4.8</td>
+		<td>Use libgurobi_g++5.2.a for C++ in Ubuntu 16.04 and 18.04</td>
+	</tr>
+	<tr>
+		<td>macOS 64-bit (mac64)</td>
+		<td>macOS 10.12 (Sierra), 10.13 (High Sierra), 10.14 (Mojave), 10.15 (Catalina)</td>
+		<td>Xcode 7/8</td>
+		<td>Use libgurobi_stdc++.a for -stdlib=libstdc++ in C++</td>
+	</tr>
+	<tr>
+		<td>AIX&reg; 64-bit (power64)</td>
+		<td>AIX 7.1, 7.2</td>
+		<td>XL C/C++ 9</td>
+		<td>Due to limited Python support on AIX, this port does not include the Interactive Shell or the Python libraries.</td>
+	</tr>
+</table>
+<h2>
+	Additional Supported Platform Information
+</h2>
+Gurobi 9 supports the following language/platform versions:
+<table class=platforms>
+	<tr>
+		<th>Language</th>
+		<th>Version</th>
+	</tr>
+	<tr>
+		<td>Python</td>
+		<td>2.7, 3.5, 3.6, 3.7, 3.8</td>
+	</tr>
+	<tr>
+		<td>MATLAB</td>
+		<td>R2013a-R2019b</td>
+	</tr>
+	<tr>
+		<td>R</td>
+		<td>3.6</td>
+	</tr>
+	<tr>
+		<td>JDK</td>
+		<td>8, 11, 13</td>
+	</tr>
+	<tr>
+		<td>.NET core</td>
+		<td>2.0, 2.1</td>
+	</tr>
+</table>
+<p>
+</p>
+<h2>
+	Release Notes for Version 9.0
+</h2>
+<p>
+        In addition to performance enhancements, Gurobi 9.0 adds the following new features:
+</p>
+<ul>
+  <li><b>Non-Convex QP Support:</b> We have added a new bilinear solver, which allows you to solve non-convex quadratic programming problems (i.e., QPs, QCPs, MIQPs, and MIQCPs). You will need to set the new <a href="docs/refman/nonconvex.html">NonConvex</a> parameter to a non-default value to use this feature.</li>
+  <li><b>New Compute Server Capabilities:</b> Gurobi Compute Server now includes a Cluster Manager, which adds many new features for administering your Compute Server cluster, including a Web User Interface, user management, job history, batch mode support, and more. See the <a href="docs/remoteservices/remoteservices.html">Remote Services Reference Manual</a> for details.</li>
+  <li><b>Batch Optimization in Compute Server:</b> Compute Server now allows you to build a model on your client machine, submit it to your Compute Server, and then disconnect your client and retrieve results later (from your client or from another machine).  See the <a href="docs/refman/batch_optimization.html">Batch Optimization</a> discussion for details.
+New attributes associated with batch mode:
+    <a href="docs/refman/batcherrorcode.html">BatchErrorCode</a>,
+    <a href="docs/refman/batcherrormessage.html">BatchErrorMessage</a>,
+    <a href="docs/refman/batchid.html">BatchID</a>,
+    <a href="docs/refman/batchstatus.html">BatchStatus</a>,
+    <a href="docs/refman/vtag.html">VTag</a>,
+    <a href="docs/refman/ctag.html">CTag</a>,
+    <a href="docs/refman/qctag.html">QCTag</a>,
+New parameters:
+    <a href="docs/refman/jsonsoldetail.html">JSONSolDetail</a>,
+  </li>
+  <li><b>Python Matrix API:</b> We have extended our Python interface to support matrix-oriented modeling, using NumPy or SciPy matrices. Consult the documention for the new <a href="docs/refman/py_mvar.html">MVar</a> object for details.</li>
+  <li><b>Piecewise-Linear (PWL) Constraints:</b> We now support piecewise-linear constraints. For details, see the <a href="docs/refman/constraints.html#subsubsection:GeneralConstraints">General Constraints</a> discussion.</li>
+  <li><b>Function Constraints With Automatic PWL Translation:</b> This release allows you to add nine basic nonlinear function constraints, including polynomial, exponential, logarithmic and trigonometric functions.  We will perform an automatical piecewise-linear approximiation of these functions. For details see the <a href="docs/refman/constraints.html#subsubsection:GeneralConstraints">General Constraints</a> discussion.
+New attributes associated with function constraints:
+    <a href="docs/refman/funcpieces.html">FuncPieces</a>,
+    <a href="docs/refman/funcpieceerror.html">FuncPieceError</a>,
+    <a href="docs/refman/funcpiecelength.html">FuncPieceLength</a>,
+    <a href="docs/refman/funcpieceratio.html">FuncPieceRatio</a>.
+New parameters:
+    <a href="docs/refman/funcmaxval.html">FuncMaxVal</a>,
+    <a href="docs/refman/funcpieces2.html">FuncPieces</a>,
+    <a href="docs/refman/funcpieceerror2.html">FuncPieceError</a>,
+    <a href="docs/refman/funcpiecelength2.html">FuncPieceLength</a>,
+    <a href="docs/refman/funcpieceratio2.html">FuncPieceRatio</a>.
+  </li>
+  <li><b>MIP Scenario Analysis:</b> This new feature allows you to describe multiple sets of changes to a model (scenarios), and computes the impact of these changes on the solution.  See the new <a href="docs/refman/multiple_scenarios.html">Multiple Scenarios</a> section for details.
+New attributes associated with scenarios:
+    <a href="docs/refman/scennlb.html">ScenNLB</a>,
+    <a href="docs/refman/scennub.html">ScenNUB</a>,
+    <a href="docs/refman/scennobj.html">ScenNObj</a>,
+    <a href="docs/refman/scennrhs.html">ScenNRHS</a>,
+    <a href="docs/refman/scennname.html">ScenNName</a>,
+    <a href="docs/refman/scennx.html">ScenNX</a>,
+    <a href="docs/refman/scennobjbound.html">ScenNObjBound</a>,
+    <a href="docs/refman/scennobjval.html">ScenNObjVal</a>,
+    <a href="docs/refman/numscenarios.html">NumScenarios</a>.
+New parameters:
+    <a href="docs/refman/scenarionumber.html">ScenarioNumber</a>,
+  </li>
+  </li>
+  <li><b>Intermediate Solution Files:</b> We now allow you to write solutions found during the MIP solution process to files as soon as they are found, using the new <a href="docs/refman/solfiles.html">SolFiles</a> parameter.</li>
+  <li><b>Lazy Constraint Callback:</b> We now support lazy constraint callbacks for Compute Server.</li>
+  <li><b>Indices for Variables and Constraints:</b> You can now query the index of a variable or a constraint in the underlying constraint matrix for the OO APIs (Python, C++, Java and .NET). Look for the new <b>index</b> method on these objects (e.g. <a href="docs/refman/py_var_index.html">Var.index</a> in Python).</li>
+  <li><b>A New Model Attribute File:</b> The Gurobi attribute file format consolidates attribute settings for a number of user-specified attributes. For details see <a href="docs/refman/attr_format.html">ATTR format</a> section.</li>
+  <li><b>Python Version for Interactive Shell:</b> The included Gurobi Interactive Shell has been updated from Python 2.7 to 3.7.</li>
+  <li><b>New parameters:</b> In addition to the attributes and parameters directly tied to the new features above, there are three additional new parameters:
+   <ul>
+                <li><a href="docs/refman/bqpcuts.html"><b>BQPCuts</b></a> New cutting plane type.</li>
+                <li><a href="docs/refman/relaxliftcuts.html"><b>RelaxLiftCuts</b></a> New cutting plane type.</li>
+                <li><a href="docs/refman/rltcuts.html"><b>RLTCuts</b></a> New cutting plane type.</li>
+   </ul> </li>
+</ul>
+<h2>
+	Code Conversion from Version 8.1
+</h2>
+<p>
+Programs that were originally written for version 8.1 of the Gurobi Optimizer generally won't require any code changes to use version 9.0.  If you'd like to use the new features, some code changes are required.
+</p>
+<p>
+One minor exception is MATLAB or R programs that retrieve quadratic constraints from a model.  The associated matrices are now returned in a different format.  Refer to the <a href="docs/refman/matlab_the_model_argument.html">MATLAB documentation</a> or <a href="docs/refman/the_model_argument.html">R documentation</a> for more information.
+</p>
+<p>
+Another minor exception is the <b>GRBfixedmodel</b> routine in C, which is now deprecated and has been replaced by the new <a href="docs/refman/c_grbfixmodel.html">GRBfixmodel</a> routine.
+</p>
+<h2>
+	License Agreement
+</h2>
+<p>
+	Note that this software is covered by the <a href="EULA.pdf">Gurobi End User License Agreement</a>. By completing the Gurobi installation process and using the software, you are accepting the terms of this agreement.
+</p>
+<p>
+	Thank you for using Gurobi products!
+</p>
+<hr />
+<p>
+	&copy; 2019 Gurobi Optimization. All Rights Reserved.
+</p>
+</body>
+</html>

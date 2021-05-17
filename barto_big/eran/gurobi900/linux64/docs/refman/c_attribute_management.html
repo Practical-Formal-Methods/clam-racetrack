@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+
+<!--Converted with LaTeX2HTML 2019 (Released January 1, 2019) -->
+<HTML lang="EN">
+<HEAD>
+<TITLE>Attribute Management</TITLE>
+<META NAME="description" CONTENT="Attribute Management">
+<META NAME="keywords" CONTENT="refman">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2019">
+
+<LINK REL="STYLESHEET" HREF="refman.css">
+
+<LINK REL="next" HREF="c_parameter_management_and.html">
+<LINK REL="previous" HREF="c_input_output.html">
+<LINK REL="next" HREF="c_grbgetattrinfo.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A
+ HREF="c_grbgetattrinfo.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="c_api_details.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="c_grbwrite.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="c_grbgetattrinfo.html">GRBgetattrinfo</A>
+<B> Up:</B> <A
+ HREF="c_api_details.html">C API Details</A>
+<B> Previous:</B> <A
+ HREF="c_grbwrite.html">GRBwrite</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H2><A ID="SECTION00026000000000000000">
+Attribute Management</A>
+</H2>
+
+<P>
+<BR><HR>
+<!--Table of Child-Links-->
+<A ID="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL CLASS="ChildLinks">
+<LI><A ID="tex2html1867"
+  HREF="c_grbgetattrinfo.html">GRBgetattrinfo</A>
+<LI><A ID="tex2html1868"
+  HREF="c_grbgetintattr.html">GRBgetintattr</A>
+<LI><A ID="tex2html1869"
+  HREF="c_grbsetintattr.html">GRBsetintattr</A>
+<LI><A ID="tex2html1870"
+  HREF="c_grbgetintattrelement.html">GRBgetintattrelement</A>
+<LI><A ID="tex2html1871"
+  HREF="c_grbsetintattrelement.html">GRBsetintattrelement</A>
+<LI><A ID="tex2html1872"
+  HREF="c_grbgetintattrarray.html">GRBgetintattrarray</A>
+<LI><A ID="tex2html1873"
+  HREF="c_grbsetintattrarray.html">GRBsetintattrarray</A>
+<LI><A ID="tex2html1874"
+  HREF="c_grbgetintattrlist.html">GRBgetintattrlist</A>
+<LI><A ID="tex2html1875"
+  HREF="c_grbsetintattrlist.html">GRBsetintattrlist</A>
+<LI><A ID="tex2html1876"
+  HREF="c_grbgetdblattr.html">GRBgetdblattr</A>
+<LI><A ID="tex2html1877"
+  HREF="c_grbsetdblattr.html">GRBsetdblattr</A>
+<LI><A ID="tex2html1878"
+  HREF="c_grbgetdblattrelement.html">GRBgetdblattrelement</A>
+<LI><A ID="tex2html1879"
+  HREF="c_grbsetdblattrelement.html">GRBsetdblattrelement</A>
+<LI><A ID="tex2html1880"
+  HREF="c_grbgetdblattrarray.html">GRBgetdblattrarray</A>
+<LI><A ID="tex2html1881"
+  HREF="c_grbsetdblattrarray.html">GRBsetdblattrarray</A>
+<LI><A ID="tex2html1882"
+  HREF="c_grbgetdblattrlist.html">GRBgetdblattrlist</A>
+<LI><A ID="tex2html1883"
+  HREF="c_grbsetdblattrlist.html">GRBsetdblattrlist</A>
+<LI><A ID="tex2html1884"
+  HREF="c_grbgetcharattrelement.html">GRBgetcharattrelement</A>
+<LI><A ID="tex2html1885"
+  HREF="c_grbsetcharattrelement.html">GRBsetcharattrelement</A>
+<LI><A ID="tex2html1886"
+  HREF="c_grbgetcharattrarray.html">GRBgetcharattrarray</A>
+<LI><A ID="tex2html1887"
+  HREF="c_grbsetcharattrarray.html">GRBsetcharattrarray</A>
+<LI><A ID="tex2html1888"
+  HREF="c_grbgetcharattrlist.html">GRBgetcharattrlist</A>
+<LI><A ID="tex2html1889"
+  HREF="c_grbsetcharattrlist.html">GRBsetcharattrlist</A>
+<LI><A ID="tex2html1890"
+  HREF="c_grbgetstrattr.html">GRBgetstrattr</A>
+<LI><A ID="tex2html1891"
+  HREF="c_grbsetstrattr.html">GRBsetstrattr</A>
+<LI><A ID="tex2html1892"
+  HREF="c_grbgetstrattrelement.html">GRBgetstrattrelement</A>
+<LI><A ID="tex2html1893"
+  HREF="c_grbsetstrattrelement.html">GRBsetstrattrelement</A>
+<LI><A ID="tex2html1894"
+  HREF="c_grbgetstrattrarray.html">GRBgetstrattrarray</A>
+<LI><A ID="tex2html1895"
+  HREF="c_grbsetstrattrarray.html">GRBsetstrattrarray</A>
+<LI><A ID="tex2html1896"
+  HREF="c_grbgetstrattrlist.html">GRBgetstrattrlist</A>
+<LI><A ID="tex2html1897"
+  HREF="c_grbsetstrattrlist.html">GRBsetstrattrlist</A>
+<LI><A ID="tex2html1898"
+  HREF="c_grbgetbatchattrinfo.html">GRBgetbatchattrinfo</A>
+</UL>
+<!--End of Table of Child-Links-->
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A
+ HREF="c_grbgetattrinfo.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="c_api_details.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="c_grbwrite.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="c_grbgetattrinfo.html">GRBgetattrinfo</A>
+<B> Up:</B> <A
+ HREF="c_api_details.html">C API Details</A>
+<B> Previous:</B> <A
+ HREF="c_grbwrite.html">GRBwrite</A></DIV>
+<!--End of Navigation Panel-->
+
+</BODY>
+</HTML>

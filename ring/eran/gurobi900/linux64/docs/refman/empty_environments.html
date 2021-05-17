@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+
+<!--Converted with LaTeX2HTML 2019 (Released January 1, 2019) -->
+<HTML lang="EN">
+<HEAD>
+<TITLE>Empty Environments</TITLE>
+<META NAME="description" CONTENT="Empty Environments">
+<META NAME="keywords" CONTENT="refman">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2019">
+
+<LINK REL="STYLESHEET" HREF="refman.css">
+
+<LINK REL="next" HREF="optimization_status_codes.html">
+<LINK REL="previous" HREF="parameters.html">
+<LINK REL="next" HREF="optimization_status_codes.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A
+ HREF="optimization_status_codes.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="refman.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="visual_basic_parameter_exa.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="optimization_status_codes.html">Optimization Status Codes</A>
+<B> Up:</B> <A
+ HREF="refman.html">Gurobi Optimizer Reference Manual</A>
+<B> Previous:</B> <A
+ HREF="visual_basic_parameter_exa.html">Visual Basic Parameter Examples</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H1><A ID="SECTION000180000000000000000"></A>
+<A ID="sec:EmptyEnvironment"></A>
+<BR>
+Empty Environments
+</H1>
+
+<P>
+Some parameters must be set before the Gurobi environment is fully
+configured.  For example, creating a Compute Server environment
+requires you to first indicate the name of the server.  This can be
+done through the Gurobi license file (<code>gurobi.lic</code>), but we also
+provide a means of doing this through the programming language APIs.
+Specifically, you can do this using an <code>empty environment</code>.
+
+<P>
+The first step is to construct the empty environment.  This is done
+using <A HREF="c_grbemptyenv.html#routine:GRBemptyenv">GRBemptyenv</A> in <B>C</B>, or
+through one of the provided <code>GRBEnv</code> constructors in the
+object-oriented interfaces.  You then set parameters on this
+environment using the standard parameter API.  Finally, you start the
+environment, using the <A HREF="c_grbstartenv.html#routine:GRBstartenv">GRBstartenv</A>
+in <B>C</B>, or using the <code>env.start()</code> method in the
+object-oriented interfaces.
+This routine will also populate any
+parameter (<TT>ComputeServer</TT>, <TT>TokenServer</TT>,
+<TT>ServerPassword</TT>, etc.) specified in your <TT>gurobi.lic</TT> file. This routine will also check the current working directory for a file
+named <TT>gurobi.env</TT>, and it will attempt to read
+parameter settings from this file if it exists.  The file should
+be in <A HREF="prm_format.html#format:PRM">PRM</A> format (briefly, each line
+should contain a parameter name, followed by the desired value
+for that parameter)..
+After that, it will apply all parameter changes specified by the user
+prior to this call. Note that this might overwrite parameters set in
+the license file, or in the <TT>gurobi.env</TT> file, if present.
+
+<P>
+After all these changes are performed, the code will actually
+activate the environment, and make it ready to work with models.
+
+<P>
+In general, you should aim to create a single Gurobi environment in
+your program, even if you plan to work with multiple models.  Reusing
+one environment is much more efficient than creating and destroying
+multiple environments.  The one exception is if you are writing a
+multi-threaded program, since environments are not thread safe.  In
+this case, you will need a separate environment for each of your
+threads.
+
+<P>
+To give a simple example, if you want your <B>Python</B> program to
+offload the optimization computation to a Compute Server named
+<code>server1</code>, you could say:
+<PRE>
+  env = Env(empty=True)
+  env.setParam(GRB.Param.ComputeServer, "server1:61000")
+  env.setParam(GRB.Param.ServerPassword, "passwd")
+  env.start()
+  model = read("misc07.mps", env)
+  model.optimize()
+</PRE>
+
+<P>
+An equivalent <B>Java</B> program would look like this:
+<PRE>
+  GRBEnv env = new GRBEnv(true);
+  env.set(GRB.StringParam.ComputeServer, "server1:61000");
+  env.set(GRB.StringParam.ServerPassword, "passwd");
+  env.start();
+  GRBModel model = new GRBModel(env, "misc07.mps");
+  model.optimize();
+</PRE>
+
+<P>
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A
+ HREF="optimization_status_codes.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="refman.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="visual_basic_parameter_exa.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="optimization_status_codes.html">Optimization Status Codes</A>
+<B> Up:</B> <A
+ HREF="refman.html">Gurobi Optimizer Reference Manual</A>
+<B> Previous:</B> <A
+ HREF="visual_basic_parameter_exa.html">Visual Basic Parameter Examples</A></DIV>
+<!--End of Navigation Panel-->
+
+</BODY>
+</HTML>

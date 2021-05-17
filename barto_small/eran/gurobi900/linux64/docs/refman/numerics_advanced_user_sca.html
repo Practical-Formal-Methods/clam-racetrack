@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+
+<!--Converted with LaTeX2HTML 2019 (Released January 1, 2019) -->
+<HTML lang="EN">
+<HEAD>
+<TITLE>Advanced user scaling</TITLE>
+<META NAME="description" CONTENT="Advanced user scaling">
+<META NAME="keywords" CONTENT="refman">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2019">
+
+<LINK REL="STYLESHEET" HREF="refman.css">
+
+<LINK REL="next" HREF="numerics_avoid_hiding_larg.html">
+<LINK REL="previous" HREF="numerics_improving_ranges_.html">
+<LINK REL="next" HREF="numerics_avoid_hiding_larg.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A
+ HREF="numerics_avoid_hiding_larg.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="numerics_tolerances_and_us.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="numerics_improving_ranges_.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="numerics_avoid_hiding_larg.html">Avoid hiding large coefficients</A>
+<B> Up:</B> <A
+ HREF="numerics_tolerances_and_us.html">Tolerances and user-scaling</A>
+<B> Previous:</B> <A
+ HREF="numerics_improving_ranges_.html">Improving ranges for variables</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H3><A ID="SECTION000343500000000000000">
+Advanced user scaling</A>
+</H3>
+
+<P>
+In the previous sections, we presented some simple strategies to limit
+the ranges of variable bounds, constraint right-hand sides, objective
+values, and constraint matrix coefficients.  However, it could happen
+that by scaling constraints or variables, some constraint coefficients
+become too small. Note that Gurobi will treat any constraint
+coefficient with absolute value under <SPAN CLASS="MATH"><IMG STYLE="height: 2.12ex; vertical-align: -0.12ex; " SRC="img307.svg"
+ ALT="$10^{-13}$"></SPAN> as zero.
+Consider the following example:
+<BR><P></P>
+<DIV CLASS="mathdisplay">
+<!-- MATH
+ \begin{displaymath}
+\begin{array}{rcl}
+10^{-7}x + 10y &\leq& 10\\
+x+10^4z&\leq&10^3\\
+x,y,z&\geq&0,
+\end{array}
+\end{displaymath}
+ -->
+
+<IMG STYLE=""
+ SRC="img308.svg"
+ ALT="\begin{displaymath}\begin{array}{rcl}
+10^{-7}x + 10y &amp;\leq&amp; 10\\
+x+10^4z&amp;\leq&amp;10^3\\
+x,y,z&amp;\geq&amp;0,
+\end{array}\end{displaymath}">
+</DIV>
+<BR CLEAR="ALL">
+<P></P>
+In this example, the matrix coefficients range in <!-- MATH
+ $[10^{-7},10^4]$
+ -->
+<SPAN CLASS="MATH"><IMG STYLE="height: 2.69ex; vertical-align: -0.70ex; " SRC="img309.svg"
+ ALT="$[10^{-7},10^4]$"></SPAN>.
+If we multiply all <SPAN CLASS="MATH"><IMG STYLE="height: 1.23ex; vertical-align: -0.12ex; " SRC="img27.svg"
+ ALT="$x$"></SPAN> coefficients by <SPAN CLASS="MATH"><IMG STYLE="height: 2.12ex; vertical-align: -0.12ex; " SRC="img310.svg"
+ ALT="$10^5$"></SPAN>, and divide all
+coefficients in the second constraint by <SPAN CLASS="MATH"><IMG STYLE="height: 2.12ex; vertical-align: -0.12ex; " SRC="img290.svg"
+ ALT="$10^3$"></SPAN>, we obtain:
+<BR><P></P>
+<DIV CLASS="mathdisplay">
+<!-- MATH
+ \begin{displaymath}
+\begin{array}{rcl}
+10^{-2}x' + 10y &\leq& 10\\
+10^2x'+10z&\leq&1\\
+x',y,z&\geq&0,
+\end{array}
+\end{displaymath}
+ -->
+
+<IMG STYLE=""
+ SRC="img311.svg"
+ ALT="\begin{displaymath}\begin{array}{rcl}
+10^{-2}x' + 10y &amp;\leq&amp; 10\\
+10^2x'+10z&amp;\leq&amp;1\\
+x',y,z&amp;\geq&amp;0,
+\end{array}\end{displaymath}">
+</DIV>
+<BR CLEAR="ALL">
+<P></P>
+where <SPAN CLASS="MATH"><IMG STYLE="height: 2.12ex; vertical-align: -0.12ex; " SRC="img312.svg"
+ ALT="$x=10^5x'$"></SPAN>. The resulting matrix coefficients have a range
+in <!-- MATH
+ $[10^{-2},10^2]$
+ -->
+<SPAN CLASS="MATH"><IMG STYLE="height: 2.69ex; vertical-align: -0.70ex; " SRC="img313.svg"
+ ALT="$[10^{-2},10^2]$"></SPAN>.
+Essentially the trick is to <EM>simultaneously</EM> scale a column and a
+row to achieve a smaller range in the coefficient matrix.
+
+<P>
+We recommend that you scale the matrix coefficients so that their range is
+contained in six orders of magnitude or less, and hopefully within
+<!-- MATH
+ $[10^{-3},10^{6}]$
+ -->
+<SPAN CLASS="MATH"><IMG STYLE="height: 2.69ex; vertical-align: -0.70ex; " SRC="img314.svg"
+ ALT="$[10^{-3},10^{6}]$"></SPAN>.
+
+<P>
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A
+ HREF="numerics_avoid_hiding_larg.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="numerics_tolerances_and_us.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="numerics_improving_ranges_.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="numerics_avoid_hiding_larg.html">Avoid hiding large coefficients</A>
+<B> Up:</B> <A
+ HREF="numerics_tolerances_and_us.html">Tolerances and user-scaling</A>
+<B> Previous:</B> <A
+ HREF="numerics_improving_ranges_.html">Improving ranges for variables</A></DIV>
+<!--End of Navigation Panel-->
+
+</BODY>
+</HTML>

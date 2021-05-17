@@ -1,0 +1,4483 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.8.22)  21 NOV 2019 00:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./images.tex
+(./images.tex
+LaTeX2e <2018-12-01>
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/home/winkler/git/gurobi/docs/gurobidoc.sty (/usr/share/texlive/texmf-dist/t
+ex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/graphic
+s/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count88
+\lst@gtempboxa=\box27
+\lst@token=\toks15
+\lst@length=\count89
+\lst@currlwidth=\dimen103
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen106
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box28
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Package option `divpsnames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
+Package: gurobidoc 
+) (/usr/share/texmf/tex/latex/html/html.sty (/usr/share/texlive/texmf-dist/tex/
+latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen107
+\Hy@linkcounter=\count96
+\Hy@pagecounter=\count97
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count98
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count99
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen108
+\Fld@menulength=\count100
+\Field@Width=\dimen109
+\Fld@charsize=\dimen110
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count101
+\c@Item=\count102
+\c@Hfootnote=\count103
+)
+Package hyperref Info: Driver: hpdftex.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count104
+\c@bookmark@seq@number=\count105
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+Package: html 1999/07/19 v1.38 hypertext commands for latex2html (nd, hws, rrm)
+
+\c@lpart=\count106
+\c@lchapter=\count107
+\c@chapter=\count108
+\c@lsection=\count109
+\c@lsubsection=\count110
+\c@lsubsubsection=\count111
+\c@lparagraph=\count112
+\c@lsubparagraph=\count113
+\c@lsubsubparagraph=\count114
+\ptrfile=\write3
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2019/01/15
+Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+\FV@CodeLineNo=\count115
+\FV@InFile=\read2
+\FV@TabBox=\box29
+\c@FancyVerbLine=\count116
+\FV@StepNumber=\count117
+\FV@OutFile=\write4
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+))
+\sizebox=\box30
+\lthtmlwrite=\write5
+(/usr/share/texmf/tex/latex/preview/preview.sty
+Package: preview 2017/04/24 11.91 (AUCTeX/preview-latex)
+(/usr/share/texmf/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen113
+)
+\pr@snippet=\count118
+\pr@box=\box31
+\pr@output=\toks21
+)
+\lthtmlPageBox=\box32
+\lthtmlCropMarkHeight=\dimen114
+\lthtmlCropMarkDepth=\dimen115
+! Too many }'s.
+l.1221 ...eview}\copy\lthtmlPageBox\end{preview}}}
+                                                  %
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+(./images.aux)
+\openout1 = `images.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1252.
+LaTeX Font Info:    ... okay on input line 1252.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1252.
+LaTeX Font Info:    ... okay on input line 1252.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1252.
+LaTeX Font Info:    ... okay on input line 1252.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1252.
+LaTeX Font Info:    ... okay on input line 1252.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1252.
+LaTeX Font Info:    ... okay on input line 1252.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1252.
+LaTeX Font Info:    ... okay on input line 1252.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1252.
+LaTeX Font Info:    ... okay on input line 1252.
+\c@lstlisting=\count119
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen116
+\scratchbox=\box33
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen117
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring OFF on input line 1252.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count126
+)
+LaTeX Info: Redefining \ref on input line 1252.
+LaTeX Info: Redefining \pageref on input line 1252.
+LaTeX Info: Redefining \nameref on input line 1252.
+(./images.out) (./images.out)
+\@outlinefile=\write6
+\openout6 = `images.out'.
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+
+latex2htmlLength hsize=349.0pt
+
+latex2htmlLength vsize=633.0pt
+
+latex2htmlLength hoffset=0.0pt
+
+latex2htmlLength voffset=0.0pt
+
+latex2htmlLength topmargin=0.0pt
+
+latex2htmlLength topskip=0.00003pt
+
+latex2htmlLength headheight=0.0pt
+
+latex2htmlLength headsep=0.0pt
+
+latex2htmlLength parskip=0.0pt plus 1.0pt
+
+latex2htmlLength oddsidemargin=62.0pt
+
+latex2htmlLength evensidemargin=62.0pt
+
+<logo.png, id=4, 426.59375pt x 125.46875pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 1277.
+(pdftex.def)             Requested size: 170.71652pt x 50.21149pt.
+
+:tex2html_wrap2629:lthtmlCropMarkHeight:=56.21149pt
+
+:tex2html_wrap2629:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+Preview: Tightpage -32891 -32891 32891 32891
+[1 </home/winkler/git/gurobi/docs/logo.png>]
+<graphics/api.pdf, id=10, 342.13521pt x 170.29922pt>
+File: graphics/api.pdf Graphic file (type pdf)
+<use graphics/api.pdf>
+Package pdftex.def Info: graphics/api.pdf  used on input line 1283.
+(pdftex.def)             Requested size: 433.62pt x 215.84103pt.
+
+:tex2html_wrap2637:lthtmlCropMarkHeight:=221.84103pt
+
+:tex2html_wrap2637:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[2 </home/winkler/git/gurobi/docs/graphics/api.pdf{/var/lib/texmf/fonts/map/pdf
+tex/updmap/pdftex.map}>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 1340.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1340.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+:tex2html_wrap_inline9414:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9414:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[3]
+
+:tex2html_wrap_inline9416:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9416:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[4]
+
+:tex2html_wrap_inline9418:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9418:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[5]
+
+:tex2html_wrap_inline9420:lthtmlCropMarkHeight:=11.55557pt
+
+:tex2html_wrap_inline9420:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[6]
+
+:tex2html_wrap_inline9422:lthtmlCropMarkHeight:=11.55557pt
+
+:tex2html_wrap_inline9422:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[7]
+
+:tex2html_wrap_inline9424:lthtmlCropMarkHeight:=13.51782pt
+
+:tex2html_wrap_inline9424:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[8]
+
+:tex2html_wrap_inline9426:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9426:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[9]
+
+:tex2html_wrap_inline9428:lthtmlCropMarkHeight:=14.49002pt
+
+:tex2html_wrap_inline9428:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[10]
+
+:tex2html_wrap_inline9430:lthtmlCropMarkHeight:=12.6428pt
+
+:tex2html_wrap_inline9430:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[11]
+
+:tex2html_wrap_inline9432:lthtmlCropMarkHeight:=12.6428pt
+
+:tex2html_wrap_inline9432:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[12]
+
+:tex2html_wrap_inline9434:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9434:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[13]
+
+:tex2html_wrap_inline9436:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9436:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[14]
+
+:tex2html_wrap_inline9438:lthtmlCropMarkHeight:=12.6428pt
+
+:tex2html_wrap_inline9438:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[15]
+
+:tex2html_wrap_inline9440:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9440:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[16]
+
+:tex2html_wrap_inline9442:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9442:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[17]
+
+:tex2html_wrap_inline9444:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9444:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[18]
+
+:tex2html_wrap_inline9446:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9446:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[19]
+
+:tex2html_wrap_inline9448:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline9448:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[20]
+
+:tex2html_wrap_inline9450:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline9450:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[21]
+
+:tex2html_wrap_inline9452:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline9452:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[22]
+
+:tex2html_wrap_inline9456:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline9456:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[23]
+
+:tex2html_wrap_inline9458:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline9458:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[24]
+
+:tex2html_wrap_inline9462:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9462:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[25]
+
+:tex2html_wrap_inline9478:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9478:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[26]
+
+:tex2html_wrap_inline9482:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline9482:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[27]
+
+:tex2html_wrap_inline9488:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9488:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[28]
+
+:tex2html_wrap_inline9492:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline9492:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[29]
+
+:tex2html_wrap_inline9498:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline9498:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[30]
+
+:tex2html_wrap_inline9508:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9508:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[31]
+
+:tex2html_wrap_inline9528:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline9528:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[32]
+
+:tex2html_wrap_inline9530:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline9530:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[33]
+
+:tex2html_wrap_inline9532:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9532:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[34]
+
+:tex2html_wrap_inline9534:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline9534:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[35]
+
+:tex2html_wrap_inline9536:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline9536:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[36]
+
+:tex2html_wrap_inline9538:lthtmlCropMarkHeight:=9.66875pt
+
+:tex2html_wrap_inline9538:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[37]
+
+:tex2html_wrap_inline9540:lthtmlCropMarkHeight:=12.35971pt
+
+:tex2html_wrap_inline9540:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[38]
+
+:tex2html_wrap_inline9546:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline9546:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[39]
+
+:tex2html_wrap_inline9556:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline9556:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[40]
+
+:tex2html_wrap_inline9558:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9558:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[41]
+
+:tex2html_wrap_inline9562:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline9562:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[42]
+
+:tex2html_wrap_inline9586:lthtmlCropMarkHeight:=14.49002pt
+
+:tex2html_wrap_inline9586:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[43]
+
+:tex2html_wrap_inline9588:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline9588:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[44]
+
+:tex2html_wrap_inline9590:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9590:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[45]
+
+:tex2html_wrap_inline9606:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline9606:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
+[46]
+
+:tex2html_wrap_inline9614:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline9614:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[47]
+
+:tex2html_wrap_inline9648:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline9648:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[48]
+
+:tex2html_wrap_inline9684:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline9684:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[49]
+
+:tex2html_wrap_inline9686:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline9686:lthtmlCropMarkDepth:=2.4821pt:1ex:=4.30554pt
+[50]
+
+:tex2html_wrap_inline9690:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline9690:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[51]
+
+:tex2html_wrap_inline23170:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline23170:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[52]
+
+:tex2html_wrap_inline23172:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline23172:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[53]
+
+:tex2html_wrap_inline23174:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline23174:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[54]
+
+:tex2html_wrap_inline23178:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline23178:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[55]
+
+:tex2html_wrap_inline23180:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline23180:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[56]
+
+:tex2html_wrap_inline23186:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline23186:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[57]
+
+:tex2html_wrap_inline23190:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline23190:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[58]
+
+:tex2html_wrap_inline23192:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline23192:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[59]
+
+:tex2html_wrap_inline23194:lthtmlCropMarkHeight:=12.59525pt
+
+:tex2html_wrap_inline23194:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[60]
+
+:tex2html_wrap_inline23198:lthtmlCropMarkHeight:=12.59525pt
+
+:tex2html_wrap_inline23198:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[61]
+
+:tex2html_wrap_inline23200:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline23200:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[62]
+
+:tex2html_wrap_inline23202:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline23202:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[63]
+
+:tex2html_wrap_inline36722:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline36722:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[64]
+
+:tex2html_wrap_inline36724:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline36724:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[65]
+
+:tex2html_wrap_inline36726:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline36726:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[66]
+
+:tex2html_wrap_inline97601:lthtmlCropMarkHeight:=9.66875pt
+
+:tex2html_wrap_inline97601:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[67]
+
+:tex2html_wrap_inline100222:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline100222:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[68]
+
+:tex2html_wrap_inline100224:lthtmlCropMarkHeight:=11.39098pt
+
+:tex2html_wrap_inline100224:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
+[69]
+
+:tex2html_wrap_inline100226:lthtmlCropMarkHeight:=11.39098pt
+
+:tex2html_wrap_inline100226:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
+[70]
+
+:tex2html_wrap_inline100230:lthtmlCropMarkHeight:=13.51782pt
+
+:tex2html_wrap_inline100230:lthtmlCropMarkDepth:=4.11543pt:1ex:=4.30554pt
+[71]
+
+:tex2html_wrap_inline109176:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline109176:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[72]
+
+:tex2html_wrap_inline111763:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline111763:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[73]
+
+:tex2html_wrap_inline111765:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline111765:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[74]
+
+:tex2html_wrap_inline112298:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline112298:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[75]
+
+:tex2html_wrap_inline112302:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline112302:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[76]
+
+:tex2html_wrap_inline112306:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline112306:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[77]
+
+:tex2html_wrap_inline112308:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline112308:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[78]
+
+:tex2html_wrap_inline113221:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline113221:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[79]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3863 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3863 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3863 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3863 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath116295:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116295:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[80]
+
+:tex2html_wrap_inline116327:lthtmlCropMarkHeight:=11.83333pt
+
+:tex2html_wrap_inline116327:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[81]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3875 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3875 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3875 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3875 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath116296:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116296:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[82]
+
+:tex2html_wrap_inline116331:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline116331:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[83]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3887 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3887 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3887 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3887 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath116297:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116297:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[84]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3893 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3893 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3893
+.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3893.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3893 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3893 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3893 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath116298:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116298:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[85]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3899 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3899 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3899 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3899 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3899 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath116299:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116299:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[86]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3905 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3905 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3905 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3905 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3905 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath116300:lthtmlCropMarkHeight:=13.50006pt
+
+:displaymath116300:lthtmlCropMarkDepth:=2.50006pt:1ex:=4.30554pt
+[87]
+
+:tex2html_wrap_inline116341:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline116341:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[88]
+
+:tex2html_wrap_inline116343:lthtmlCropMarkHeight:=13.50006pt
+
+:tex2html_wrap_inline116343:lthtmlCropMarkDepth:=2.50006pt:1ex:=4.30554pt
+[89]
+
+:tex2html_wrap_inline116347:lthtmlCropMarkHeight:=12.35971pt
+
+:tex2html_wrap_inline116347:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[90]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3929 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3929 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3929 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath116301:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116301:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[91]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3935 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3935 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3935 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3935 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath116302:lthtmlCropMarkHeight:=14.49002pt
+
+:displaymath116302:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[92]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3941 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3941 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3941 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3941 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath116303:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116303:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[93]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3947 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3947 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3947 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3947 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3947 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath116304:lthtmlCropMarkHeight:=14.87892pt
+
+:displaymath116304:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[94]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3953 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3953 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3953 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3953 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath116305:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116305:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[95]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3959 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3959 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3959 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3959 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3959 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3959 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath116306:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116306:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[96]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3965 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3965 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3965 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3965 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3965 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath116307:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116307:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[97]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3971 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3971 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3971 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3971 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath116308:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116308:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[98]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3977 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3977 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3977 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3977 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath116309:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116309:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[99]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3983 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3983 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3983 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3983 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath116310:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath116310:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[100]
+
+:tex2html_wrap_inline116465:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline116465:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[101]
+
+:tex2html_wrap_inline116467:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline116467:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[102]
+
+:tex2html_wrap_inline116469:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline116469:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[103]
+
+:tex2html_wrap_inline125374:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125374:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[104]
+
+:tex2html_wrap_inline125376:lthtmlCropMarkHeight:=11.39098pt
+
+:tex2html_wrap_inline125376:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[105]
+
+:tex2html_wrap_inline125378:lthtmlCropMarkHeight:=11.83333pt
+
+:tex2html_wrap_inline125378:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[106]
+
+:tex2html_wrap_inline125380:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline125380:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
+[107]
+
+:tex2html_wrap_inline125386:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline125386:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[108]
+
+:tex2html_wrap_inline125394:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline125394:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[109]
+
+:tex2html_wrap_inline125400:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline125400:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[110]
+
+:tex2html_wrap_inline125406:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline125406:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[111]
+
+:tex2html_wrap_inline125420:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125420:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[112]
+
+:tex2html_wrap_inline125424:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125424:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[113]
+
+:tex2html_wrap_inline125428:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125428:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[114]
+
+:tex2html_wrap_inline125432:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125432:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[115]
+
+:tex2html_wrap_inline125434:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125434:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[116]
+
+:tex2html_wrap_inline125436:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125436:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[117]
+
+:tex2html_wrap_inline125438:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125438:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[118]
+
+:tex2html_wrap_inline125444:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125444:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[119]
+
+:tex2html_wrap_inline125446:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125446:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[120]
+
+:tex2html_wrap_inline125460:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125460:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[121]
+
+:tex2html_wrap_inline125464:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125464:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[122]
+
+:tex2html_wrap_inline125474:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125474:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[123]
+
+:tex2html_wrap_inline125476:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125476:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[124]
+
+:tex2html_wrap_inline125478:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125478:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[125]
+
+:tex2html_wrap_inline125488:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline125488:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[126]
+
+:tex2html_wrap_inline125496:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline125496:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[127]
+
+:tex2html_wrap_inline125498:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline125498:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[128]
+
+:tex2html_wrap_inline125506:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125506:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[129]
+
+:tex2html_wrap_inline125510:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125510:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[130]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4238 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4238 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4238 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath125366:lthtmlCropMarkHeight:=44.5pt
+
+:displaymath125366:lthtmlCropMarkDepth:=33.5pt:1ex:=4.30554pt
+[131]
+
+:tex2html_wrap_inline125514:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125514:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[132]
+
+:tex2html_wrap_inline125522:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125522:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[133]
+
+:tex2html_wrap_inline125524:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125524:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[134]
+
+:tex2html_wrap_inline125526:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125526:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[135]
+
+:tex2html_wrap_inline125528:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125528:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[136]
+
+:tex2html_wrap_inline125530:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125530:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[137]
+
+:tex2html_wrap_inline125532:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125532:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[138]
+
+:tex2html_wrap_inline125540:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125540:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[139]
+
+:tex2html_wrap_inline125544:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125544:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[140]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4303 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4303 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4303 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath125367:lthtmlCropMarkHeight:=20.5pt
+
+:displaymath125367:lthtmlCropMarkDepth:=9.5pt:1ex:=4.30554pt
+[141]
+
+:tex2html_wrap_inline125554:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline125554:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[142]
+
+:tex2html_wrap_inline125566:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125566:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[143]
+
+:tex2html_wrap_inline125574:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125574:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
+[144]
+<graphics/func.pdf, id=478, 188.2764pt x 327.20645pt>
+File: graphics/func.pdf Graphic file (type pdf)
+<use graphics/func.pdf>
+Package pdftex.def Info: graphics/func.pdf  used on input line 4327.
+(pdftex.def)             Requested size: 180.67499pt x 314.00977pt.
+
+:tex2html_wrap125912:lthtmlCropMarkHeight:=320.00977pt
+
+:tex2html_wrap125912:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[145 </home/winkler/git/gurobi/docs/graphics/func.pdf>]
+
+:tex2html_wrap_inline125584:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline125584:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[146]
+
+:tex2html_wrap_inline125588:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125588:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[147]
+
+:tex2html_wrap_inline125592:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125592:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[148]
+
+:tex2html_wrap_inline125594:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125594:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[149]
+
+:tex2html_wrap_inline125596:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125596:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[150]
+
+:tex2html_wrap_inline125598:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125598:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[151]
+
+:tex2html_wrap_inline125600:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline125600:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[152]
+
+:tex2html_wrap_inline125602:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline125602:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[153]
+
+:tex2html_wrap_inline125606:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline125606:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[154]
+
+:tex2html_wrap_inline125608:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline125608:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[155]
+
+:tex2html_wrap_inline125610:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125610:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[156]
+
+:tex2html_wrap_inline125614:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline125614:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[157]
+
+:tex2html_wrap_inline125616:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125616:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[158]
+
+:tex2html_wrap_inline125618:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline125618:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[159]
+
+:tex2html_wrap_inline125620:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125620:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[160]
+
+:tex2html_wrap_inline125622:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125622:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[161]
+
+:tex2html_wrap_inline125624:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125624:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[162]
+
+:tex2html_wrap_inline125632:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125632:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[163]
+
+:tex2html_wrap_inline125646:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125646:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[164]
+
+:tex2html_wrap_inline125650:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125650:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[165]
+
+:tex2html_wrap_inline125652:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125652:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[166]
+
+:tex2html_wrap_inline125654:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125654:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[167]
+
+:tex2html_wrap_inline125658:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125658:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[168]
+
+:tex2html_wrap_inline125660:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125660:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[169]
+
+:tex2html_wrap_inline125662:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125662:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[170]
+
+:tex2html_wrap_inline125664:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125664:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[171]
+<graphics/pwl.pdf, id=587, 287.86044pt x 192.05551pt>
+File: graphics/pwl.pdf Graphic file (type pdf)
+<use graphics/pwl.pdf>
+Package pdftex.def Info: graphics/pwl.pdf  used on input line 4494.
+(pdftex.def)             Requested size: 289.07999pt x 192.87851pt.
+
+:tex2html_wrap125960:lthtmlCropMarkHeight:=198.87851pt
+
+:tex2html_wrap125960:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[172 </home/winkler/git/gurobi/docs/graphics/pwl.pdf>]
+
+:tex2html_wrap_inline125668:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125668:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[173]
+
+:tex2html_wrap_inline125670:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125670:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[174]
+
+:tex2html_wrap_inline125672:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125672:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[175]
+
+:tex2html_wrap_inline125674:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125674:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[176]
+
+:tex2html_wrap_inline125676:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125676:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[177]
+
+:tex2html_wrap_inline125678:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125678:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[178]
+
+:tex2html_wrap_inline125682:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125682:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[179]
+
+:tex2html_wrap_inline125684:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125684:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[180]
+
+! LaTeX Error: \mathtt allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4550 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4550 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4550 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4550 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath125368:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath125368:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[181]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4565 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4565 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4565 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath125369:lthtmlCropMarkHeight:=38.5003pt
+
+:displaymath125369:lthtmlCropMarkDepth:=27.5003pt:1ex:=4.30554pt
+[182]
+
+:tex2html_wrap_inline125688:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125688:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[183]
+
+:tex2html_wrap_inline125692:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125692:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[184]
+
+:tex2html_wrap_inline125694:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125694:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[185]
+
+:tex2html_wrap_inline125696:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline125696:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[186]
+
+:tex2html_wrap_inline125698:lthtmlCropMarkHeight:=12.35971pt
+
+:tex2html_wrap_inline125698:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[187]
+
+:tex2html_wrap_inline125700:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125700:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[188]
+
+:tex2html_wrap_inline125702:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125702:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[189]
+
+:tex2html_wrap_inline125706:lthtmlCropMarkHeight:=12.35971pt
+
+:tex2html_wrap_inline125706:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[190]
+
+:tex2html_wrap_inline125708:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125708:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[191]
+
+:tex2html_wrap_inline125710:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125710:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[192]
+
+:tex2html_wrap_inline125718:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125718:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[193]
+
+:tex2html_wrap_inline125720:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125720:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[194]
+
+:tex2html_wrap_inline125730:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125730:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[195]
+
+:tex2html_wrap_inline125732:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125732:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[196]
+
+:tex2html_wrap_inline125734:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline125734:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[197]
+
+:tex2html_wrap_inline125738:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline125738:lthtmlCropMarkDepth:=2.33333pt:1ex:=4.30554pt
+[198]
+<graphics/pwljump.pdf, id=689, 302.08762pt x 192.05551pt>
+File: graphics/pwljump.pdf Graphic file (type pdf)
+<use graphics/pwljump.pdf>
+Package pdftex.def Info: graphics/pwljump.pdf  used on input line 4669.
+(pdftex.def)             Requested size: 289.07999pt x 183.79973pt.
+
+:tex2html_wrap125968:lthtmlCropMarkHeight:=189.79973pt
+
+:tex2html_wrap125968:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[199 </home/winkler/git/gurobi/docs/graphics/pwljump.pdf>]
+
+:tex2html_wrap_inline125754:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125754:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[200]
+
+:tex2html_wrap_inline125762:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125762:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[201]
+
+:tex2html_wrap_inline125764:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125764:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[202]
+<graphics/convex0.pdf, id=715, 202.50255pt x 170.7168pt>
+File: graphics/convex0.pdf Graphic file (type pdf)
+<use graphics/convex0.pdf>
+Package pdftex.def Info: graphics/convex0.pdf  used on input line 4693.
+(pdftex.def)             Requested size: 252.94499pt x 213.24176pt.
+
+:tex2html_wrap125976:lthtmlCropMarkHeight:=219.24176pt
+
+:tex2html_wrap125976:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[203 </home/winkler/git/gurobi/docs/graphics/convex0.pdf>]
+
+:tex2html_wrap_inline125768:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline125768:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[204]
+<graphics/convex1.pdf, id=723, 202.50255pt x 170.7168pt>
+File: graphics/convex1.pdf Graphic file (type pdf)
+<use graphics/convex1.pdf>
+Package pdftex.def Info: graphics/convex1.pdf  used on input line 4705.
+(pdftex.def)             Requested size: 252.94499pt x 213.24176pt.
+
+:tex2html_wrap125982:lthtmlCropMarkHeight:=219.24176pt
+
+:tex2html_wrap125982:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[205 </home/winkler/git/gurobi/docs/graphics/convex1.pdf>]
+
+:tex2html_wrap_inline125770:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline125770:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[206]
+<graphics/convex2.pdf, id=732, 174.05025pt x 170.7168pt>
+File: graphics/convex2.pdf Graphic file (type pdf)
+<use graphics/convex2.pdf>
+Package pdftex.def Info: graphics/convex2.pdf  used on input line 4718.
+(pdftex.def)             Requested size: 252.94499pt x 248.10347pt.
+
+:tex2html_wrap126012:lthtmlCropMarkHeight:=254.10347pt
+
+:tex2html_wrap126012:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[207 </home/winkler/git/gurobi/docs/graphics/convex2.pdf>]
+
+:tex2html_wrap_inline125772:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline125772:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[208]
+
+:tex2html_wrap_inline130253:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline130253:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[209]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4900 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4900 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4900 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath130245:lthtmlCropMarkHeight:=13.93448pt
+
+:displaymath130245:lthtmlCropMarkDepth:=11.77086pt:1ex:=4.30554pt
+[210]
+
+:tex2html_wrap_inline130263:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline130263:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[211]
+
+:tex2html_wrap_inline130265:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline130265:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[212]
+
+:tex2html_wrap_inline130269:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline130269:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[213]
+
+:tex2html_wrap_inline130273:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline130273:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[214]
+
+:tex2html_wrap_inline130279:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline130279:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[215]
+
+:tex2html_wrap_inline130285:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline130285:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[216]
+
+:tex2html_wrap_inline130287:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline130287:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[217]
+
+:tex2html_wrap_inline130289:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline130289:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[218]
+
+:tex2html_wrap_inline130291:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline130291:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[219]
+
+:tex2html_wrap_inline130295:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline130295:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[220]
+
+:tex2html_wrap_inline130297:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline130297:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[221]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5055 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5055 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5055 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath130246:lthtmlCropMarkHeight:=26.5pt
+
+:displaymath130246:lthtmlCropMarkDepth:=15.5pt:1ex:=4.30554pt
+[222]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5067 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5067 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5067 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath130247:lthtmlCropMarkHeight:=26.5pt
+
+:displaymath130247:lthtmlCropMarkDepth:=15.5pt:1ex:=4.30554pt
+[223]
+
+:tex2html_wrap_inline130301:lthtmlCropMarkHeight:=12.35971pt
+
+:tex2html_wrap_inline130301:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[224]
+
+:tex2html_wrap_inline130303:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline130303:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[225]
+
+:tex2html_wrap_inline130305:lthtmlCropMarkHeight:=12.35971pt
+
+:tex2html_wrap_inline130305:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[226]
+
+:tex2html_wrap_inline130307:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline130307:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[227]
+
+:tex2html_wrap_inline130357:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline130357:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[228]
+
+:tex2html_wrap_inline130369:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline130369:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[229]
+
+:tex2html_wrap_inline130371:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline130371:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[230]
+
+:tex2html_wrap_inline130373:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline130373:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[231]
+
+:tex2html_wrap_inline130377:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline130377:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[232]
+
+:tex2html_wrap_inline130379:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline130379:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[233]
+
+:tex2html_wrap_inline130381:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline130381:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[234]
+
+:tex2html_wrap_inline130383:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline130383:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[235]
+
+:tex2html_wrap_inline130387:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline130387:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[236]
+
+:tex2html_wrap_inline130389:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline130389:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[237]
+
+:tex2html_wrap_inline130391:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline130391:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[238]
+
+:tex2html_wrap_inline130401:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline130401:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[239]
+
+:tex2html_wrap_inline130403:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline130403:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[240]
+
+:tex2html_wrap_inline130409:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline130409:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[241]
+
+:tex2html_wrap_inline130447:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline130447:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[242]
+
+:tex2html_wrap_inline132596:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline132596:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[243]
+
+:tex2html_wrap_inline132598:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline132598:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[244]
+
+:tex2html_wrap_inline132602:lthtmlCropMarkHeight:=12.15079pt
+
+:tex2html_wrap_inline132602:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[245]
+
+:tex2html_wrap_inline132606:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline132606:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[246]
+
+:tex2html_wrap_inline132618:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline132618:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[247]
+
+:tex2html_wrap_inline132630:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline132630:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[248]
+
+:tex2html_wrap_inline132632:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline132632:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[249]
+
+:tex2html_wrap_inline137945:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline137945:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[250]
+
+:tex2html_wrap_inline141800:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline141800:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[251]
+
+:tex2html_wrap_inline141802:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline141802:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[252]
+
+:tex2html_wrap_inline141804:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline141804:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[253]
+
+:tex2html_wrap_inline141806:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline141806:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[254]
+
+:tex2html_wrap_indisplay166312:lthtmlCropMarkHeight:=38.5pt
+
+:tex2html_wrap_indisplay166312:lthtmlCropMarkDepth:=27.5pt:1ex:=4.30554pt
+[255]
+
+:tex2html_wrap_inline142649:lthtmlCropMarkHeight:=14.41226pt
+
+:tex2html_wrap_inline142649:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[256]
+
+:tex2html_wrap_inline143410:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline143410:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[257]
+
+:tex2html_wrap_inline143412:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline143412:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[258]
+
+:tex2html_wrap_inline143418:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline143418:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[259]
+
+:tex2html_wrap_inline143420:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline143420:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[260]
+
+:tex2html_wrap_inline143424:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline143424:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[261]
+
+:tex2html_wrap_inline143426:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline143426:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[262]
+
+:tex2html_wrap_inline143428:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline143428:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[263]
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5984 \lthtmldisplayZ
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5984 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5984 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5984 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath143394:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath143394:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[264]
+
+:tex2html_wrap_inline143432:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline143432:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[265]
+
+:tex2html_wrap_inline143434:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline143434:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[266]
+
+:tex2html_wrap_inline143436:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline143436:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[267]
+
+:tex2html_wrap_inline143438:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline143438:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[268]
+
+:tex2html_wrap_inline143442:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline143442:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[269]
+
+:tex2html_wrap_inline143444:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline143444:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[270]
+
+:tex2html_wrap_inline143454:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline143454:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[271]
+
+:tex2html_wrap_inline143456:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline143456:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[272]
+
+:tex2html_wrap_inline143458:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline143458:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[273]
+
+:tex2html_wrap_inline143462:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline143462:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[274]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6114 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6114 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6114 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145144:lthtmlCropMarkHeight:=20.5pt
+
+:displaymath145144:lthtmlCropMarkDepth:=9.5pt:1ex:=4.30554pt
+[275]
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6122 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145145:lthtmlCropMarkHeight:=12.44444pt
+
+:displaymath145145:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[276]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6131 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6131 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6131 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145146:lthtmlCropMarkHeight:=20.5pt
+
+:displaymath145146:lthtmlCropMarkDepth:=9.5pt:1ex:=4.30554pt
+[277]
+
+:tex2html_wrap_inline145206:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145206:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[278]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6146 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6146 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6146 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145147:lthtmlCropMarkHeight:=20.5pt
+
+:displaymath145147:lthtmlCropMarkDepth:=9.5pt:1ex:=4.30554pt
+[279]
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6154 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145148:lthtmlCropMarkHeight:=12.44444pt
+
+:displaymath145148:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[280]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6163 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6163 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6163 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145149:lthtmlCropMarkHeight:=20.5pt
+
+:displaymath145149:lthtmlCropMarkDepth:=9.5pt:1ex:=4.30554pt
+[281]
+
+:tex2html_wrap_inline145208:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145208:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[282]
+
+:tex2html_wrap_inline145210:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145210:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[283]
+
+:tex2html_wrap_inline145218:lthtmlCropMarkHeight:=12.35971pt
+
+:tex2html_wrap_inline145218:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[284]
+
+:tex2html_wrap_inline145220:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline145220:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[285]
+
+:tex2html_wrap_inline145226:lthtmlCropMarkHeight:=12.35971pt
+
+:tex2html_wrap_inline145226:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[286]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6207 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6207 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6207 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145150:lthtmlCropMarkHeight:=26.5pt
+
+:displaymath145150:lthtmlCropMarkDepth:=15.5pt:1ex:=4.30554pt
+[287]
+
+:tex2html_wrap_inline145232:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145232:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[288]
+
+:tex2html_wrap_inline145234:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145234:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[289]
+
+:tex2html_wrap_inline145236:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145236:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[290]
+
+:tex2html_wrap_inline145238:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145238:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[291]
+
+:tex2html_wrap_inline145240:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145240:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[292]
+
+:tex2html_wrap_inline145242:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145242:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[293]
+
+:tex2html_wrap_inline145244:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145244:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[294]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6260 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6260 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6260 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145151:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath145151:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[295]
+
+:tex2html_wrap_inline145246:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline145246:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[296]
+
+:tex2html_wrap_inline145248:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline145248:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[297]
+
+:tex2html_wrap_inline145250:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145250:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[298]
+
+:tex2html_wrap_inline145252:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145252:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[299]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6291 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6291 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6291 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145152:lthtmlCropMarkHeight:=14.14003pt
+
+:displaymath145152:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[300]
+
+:tex2html_wrap_inline145256:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145256:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[301]
+
+:tex2html_wrap_inline145260:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145260:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[302]
+
+:tex2html_wrap_inline145264:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline145264:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[303]
+
+:tex2html_wrap_inline145266:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145266:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[304]
+
+:tex2html_wrap_inline145270:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145270:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[305]
+
+:tex2html_wrap_inline145272:lthtmlCropMarkHeight:=14.31667pt
+
+:tex2html_wrap_inline145272:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[306]
+
+:tex2html_wrap_inline145280:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145280:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[307]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6350 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6350 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6350 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145153:lthtmlCropMarkHeight:=26.5pt
+
+:displaymath145153:lthtmlCropMarkDepth:=15.5pt:1ex:=4.30554pt
+[308]
+
+:tex2html_wrap_inline145282:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145282:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[309]
+
+:tex2html_wrap_inline145286:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145286:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[310]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6372 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6372 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6372 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145154:lthtmlCropMarkHeight:=26.5pt
+
+:displaymath145154:lthtmlCropMarkDepth:=15.5pt:1ex:=4.30554pt
+[311]
+
+:tex2html_wrap_inline145290:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145290:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[312]
+
+:tex2html_wrap_inline145292:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145292:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[313]
+
+:tex2html_wrap_inline145294:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145294:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[314]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6401 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6401 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6401 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145155:lthtmlCropMarkHeight:=20.5pt
+
+:displaymath145155:lthtmlCropMarkDepth:=9.5pt:1ex:=4.30554pt
+[315]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6415 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6415 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6415 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145156:lthtmlCropMarkHeight:=50.5pt
+
+:displaymath145156:lthtmlCropMarkDepth:=39.5pt:1ex:=4.30554pt
+[316]
+
+:tex2html_wrap_inline145296:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145296:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[317]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6430 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6430 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6430 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145158:lthtmlCropMarkHeight:=20.5pt
+
+:displaymath145158:lthtmlCropMarkDepth:=9.5pt:1ex:=4.30554pt
+[318]
+
+:tex2html_wrap_inline145298:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145298:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[319]
+
+:tex2html_wrap_inline145302:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145302:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[320]
+
+:tex2html_wrap_inline145306:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145306:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[321]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6460 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6460 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6460 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145159:lthtmlCropMarkHeight:=26.5pt
+
+:displaymath145159:lthtmlCropMarkDepth:=15.5pt:1ex:=4.30554pt
+[322]
+
+:tex2html_wrap_inline145310:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145310:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[323]
+
+:tex2html_wrap_inline145316:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145316:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[324]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6482 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6482 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6482 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145160:lthtmlCropMarkHeight:=26.5pt
+
+:displaymath145160:lthtmlCropMarkDepth:=15.5pt:1ex:=4.30554pt
+[325]
+
+:tex2html_wrap_inline145332:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145332:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[326]
+
+:tex2html_wrap_inline145336:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145336:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[327]
+
+:tex2html_wrap_inline145338:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145338:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[328]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6508 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6508 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6508 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145161:lthtmlCropMarkHeight:=14.14003pt
+
+:displaymath145161:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[329]
+
+:tex2html_wrap_inline145340:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145340:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[330]
+
+:tex2html_wrap_inline145342:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145342:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[331]
+
+:tex2html_wrap_inline145346:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145346:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[332]
+
+:tex2html_wrap_inline145350:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145350:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[333]
+
+:tex2html_wrap_inline145360:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145360:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[334]
+
+:tex2html_wrap_inline145364:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline145364:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[335]
+
+:tex2html_wrap_inline145366:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145366:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[336]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6568 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6568 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6568 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145162:lthtmlCropMarkHeight:=17.20113pt
+
+:displaymath145162:lthtmlCropMarkDepth:=5.19841pt:1ex:=4.30554pt
+[337]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6574 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6574 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6574 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145163:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath145163:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+[338]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6580 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6580 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6580 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145164:lthtmlCropMarkHeight:=14.96107pt
+
+:displaymath145164:lthtmlCropMarkDepth:=4.44841pt:1ex:=4.30554pt
+[339]
+
+:tex2html_wrap_inline145374:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline145374:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[340]
+
+:tex2html_wrap_inline145376:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline145376:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[341]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6598 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6598 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6598 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145165:lthtmlCropMarkHeight:=16.09998pt
+
+:displaymath145165:lthtmlCropMarkDepth:=5.19841pt:1ex:=4.30554pt
+[342]
+
+:tex2html_wrap_inline145380:lthtmlCropMarkHeight:=14.49002pt
+
+:tex2html_wrap_inline145380:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[343]
+
+:tex2html_wrap_inline145390:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline145390:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[344]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6621 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6621 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6621 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145166:lthtmlCropMarkHeight:=20.5pt
+
+:displaymath145166:lthtmlCropMarkDepth:=9.5pt:1ex:=4.30554pt
+[345]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6633 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6633 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6633 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145167:lthtmlCropMarkHeight:=38.5pt
+
+:displaymath145167:lthtmlCropMarkDepth:=27.5pt:1ex:=4.30554pt
+[346]
+
+:tex2html_wrap_inline145394:lthtmlCropMarkHeight:=13.93448pt
+
+:tex2html_wrap_inline145394:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[347]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6645 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6645 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6645 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145168:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath145168:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[348]
+
+:tex2html_wrap_inline145396:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline145396:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[349]
+
+:tex2html_wrap_inline145398:lthtmlCropMarkHeight:=12.88586pt
+
+:tex2html_wrap_inline145398:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[350]
+<refman_misc/codedraw3.png, id=1194, 890.32625pt x 840.13875pt>
+File: refman_misc/codedraw3.png Graphic file (type png)
+<use refman_misc/codedraw3.png>
+Package pdftex.def Info: refman_misc/codedraw3.png  used on input line 6663.
+(pdftex.def)             Requested size: 289.07999pt x 272.78546pt.
+
+:tex2html_wrap145964:lthtmlCropMarkHeight:=278.78546pt
+
+:tex2html_wrap145964:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[351 </home/winkler/git/gurobi/docs/refman_misc/codedraw3.png>]
+
+:tex2html_wrap_inline145402:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline145402:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[352]
+
+:tex2html_wrap_inline145412:lthtmlCropMarkHeight:=15.31749pt
+
+:tex2html_wrap_inline145412:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[353]
+
+:tex2html_wrap_inline145414:lthtmlCropMarkHeight:=15.51749pt
+
+:tex2html_wrap_inline145414:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[354]
+
+:tex2html_wrap_inline145416:lthtmlCropMarkHeight:=15.20636pt
+
+:tex2html_wrap_inline145416:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[355]
+<refman_misc/codedraw4.png, id=1212, 866.23625pt x 868.24374pt>
+File: refman_misc/codedraw4.png Graphic file (type png)
+<use refman_misc/codedraw4.png>
+Package pdftex.def Info: refman_misc/codedraw4.png  used on input line 6693.
+(pdftex.def)             Requested size: 289.07999pt x 289.7539pt.
+
+:tex2html_wrap145970:lthtmlCropMarkHeight:=295.7539pt
+
+:tex2html_wrap145970:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[356 </home/winkler/git/gurobi/docs/refman_misc/codedraw4.png>]
+
+:tex2html_wrap_inline145418:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline145418:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[357]
+
+:tex2html_wrap_inline145420:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145420:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[358]
+
+:tex2html_wrap_inline145422:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145422:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+[359]
+
+:tex2html_wrap_inline145424:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145424:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[360]
+
+:tex2html_wrap_inline145426:lthtmlCropMarkHeight:=12.44444pt
+
+:tex2html_wrap_inline145426:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[361]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6737 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6737 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6737 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145169:lthtmlCropMarkHeight:=38.5pt
+
+:displaymath145169:lthtmlCropMarkDepth:=27.5pt:1ex:=4.30554pt
+[362]
+<refman_misc/codedraw5.png, id=1236, 890.32625pt x 840.13875pt>
+File: refman_misc/codedraw5.png Graphic file (type png)
+<use refman_misc/codedraw5.png>
+Package pdftex.def Info: refman_misc/codedraw5.png  used on input line 6743.
+(pdftex.def)             Requested size: 289.07999pt x 272.78546pt.
+
+:tex2html_wrap145986:lthtmlCropMarkHeight:=278.78546pt
+
+:tex2html_wrap145986:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[363 </home/winkler/git/gurobi/docs/refman_misc/codedraw5.png>]
+
+:tex2html_wrap_inline145428:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145428:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[364]
+
+:tex2html_wrap_inline145430:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145430:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[365]
+
+:tex2html_wrap_inline145436:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145436:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[366]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6775 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6775 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6775 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145170:lthtmlCropMarkHeight:=38.5pt
+
+:displaymath145170:lthtmlCropMarkDepth:=27.5pt:1ex:=4.30554pt
+[367]
+<refman_misc/codedraw6.png, id=1254, 890.32625pt x 844.15375pt>
+File: refman_misc/codedraw6.png Graphic file (type png)
+<use refman_misc/codedraw6.png>
+Package pdftex.def Info: refman_misc/codedraw6.png  used on input line 6781.
+(pdftex.def)             Requested size: 289.07999pt x 274.0891pt.
+
+:tex2html_wrap145992:lthtmlCropMarkHeight:=280.0891pt
+
+:tex2html_wrap145992:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[368 </home/winkler/git/gurobi/docs/refman_misc/codedraw6.png>]
+
+:tex2html_wrap_inline145464:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145464:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[369]
+
+:tex2html_wrap_inline145466:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145466:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[370]
+
+:tex2html_wrap_inline145468:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145468:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[371]
+
+:tex2html_wrap_inline145470:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145470:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[372]
+
+:tex2html_wrap_inline145476:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145476:lthtmlCropMarkDepth:=0.83333pt:1ex:=4.30554pt
+[373]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6824 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6824 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6824 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+:displaymath145171:lthtmlCropMarkHeight:=32.5pt
+
+:displaymath145171:lthtmlCropMarkDepth:=21.5pt:1ex:=4.30554pt
+[374]
+<refman_misc/codedraw7.png, id=1278, 769.87625pt x 804.00375pt>
+File: refman_misc/codedraw7.png Graphic file (type png)
+<use refman_misc/codedraw7.png>
+Package pdftex.def Info: refman_misc/codedraw7.png  used on input line 6830.
+(pdftex.def)             Requested size: 289.07999pt x 301.90552pt.
+
+:tex2html_wrap146010:lthtmlCropMarkHeight:=307.90552pt
+
+:tex2html_wrap146010:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[375 </home/winkler/git/gurobi/docs/refman_misc/codedraw7.png>]
+
+:tex2html_wrap_inline145486:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline145486:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[376]
+
+:tex2html_wrap_inline145488:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline145488:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[377]
+
+:tex2html_wrap_inline145490:lthtmlCropMarkHeight:=14.44843pt
+
+:tex2html_wrap_inline145490:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[378]
+
+:tex2html_wrap_inline145504:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145504:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[379]
+
+:tex2html_wrap_inline145506:lthtmlCropMarkHeight:=14.79842pt
+
+:tex2html_wrap_inline145506:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[380]
+
+:tex2html_wrap_inline145508:lthtmlCropMarkHeight:=12.83331pt
+
+:tex2html_wrap_inline145508:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[381]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6872 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6872 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6872 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145172:lthtmlCropMarkHeight:=16.09998pt
+
+:displaymath145172:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[382]
+
+:tex2html_wrap_inline145510:lthtmlCropMarkHeight:=12.94444pt
+
+:tex2html_wrap_inline145510:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[383]
+
+:tex2html_wrap_inline145524:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145524:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[384]
+
+:tex2html_wrap_inline145526:lthtmlCropMarkHeight:=14.44843pt
+
+:tex2html_wrap_inline145526:lthtmlCropMarkDepth:=4.28175pt:1ex:=4.30554pt
+[385]
+
+:tex2html_wrap_inline145528:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145528:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[386]
+
+:tex2html_wrap_inline145532:lthtmlCropMarkHeight:=14.44843pt
+
+:tex2html_wrap_inline145532:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[387]
+
+:tex2html_wrap_inline145534:lthtmlCropMarkHeight:=14.44843pt
+
+:tex2html_wrap_inline145534:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[388]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6914 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6914 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6914 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145173:lthtmlCropMarkHeight:=13.5pt
+
+:displaymath145173:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[389]
+
+:tex2html_wrap_inline145538:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145538:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[390]
+
+:tex2html_wrap_inline145542:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145542:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[391]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6935 \lthtmldisplayZ
+                      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6935 \lthtmldisplayZ
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6935 \lthtmldisplayZ
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+:displaymath145174:lthtmlCropMarkHeight:=14.56924pt
+
+:displaymath145174:lthtmlCropMarkDepth:=3.44841pt:1ex:=4.30554pt
+[392]
+
+:tex2html_wrap_inline145548:lthtmlCropMarkHeight:=14.14003pt
+
+:tex2html_wrap_inline145548:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[393]
+<refman_misc/codedraw1.png, id=1342, 714.67pt x 714.67pt>
+File: refman_misc/codedraw1.png Graphic file (type png)
+<use refman_misc/codedraw1.png>
+Package pdftex.def Info: refman_misc/codedraw1.png  used on input line 6947.
+(pdftex.def)             Requested size: 289.07999pt x 289.0799pt.
+
+:tex2html_wrap146024:lthtmlCropMarkHeight:=295.0799pt
+
+:tex2html_wrap146024:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[394 </home/winkler/git/gurobi/docs/refman_misc/codedraw1.png>]
+
+:tex2html_wrap_inline145552:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145552:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[395]
+<refman_misc/codedraw2.png, id=1350, 1259.70625pt x 214.8025pt>
+File: refman_misc/codedraw2.png Graphic file (type png)
+<use refman_misc/codedraw2.png>
+Package pdftex.def Info: refman_misc/codedraw2.png  used on input line 6961.
+(pdftex.def)             Requested size: 289.07999pt x 49.29208pt.
+
+:tex2html_wrap146046:lthtmlCropMarkHeight:=55.29208pt
+
+:tex2html_wrap146046:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[396 </home/winkler/git/gurobi/docs/refman_misc/codedraw2.png>]
+
+:tex2html_wrap_inline145560:lthtmlCropMarkHeight:=13.14444pt
+
+:tex2html_wrap_inline145560:lthtmlCropMarkDepth:=1.49998pt:1ex:=4.30554pt
+[397]
+
+:tex2html_wrap_inline145568:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145568:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[398]
+
+:tex2html_wrap_inline145572:lthtmlCropMarkHeight:=13.5pt
+
+:tex2html_wrap_inline145572:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[399]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6993.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 6993.
+(./images.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 6993.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 6993.
+
+Package rerunfilecheck Info: File `images.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 6993.
+ ) 
+Here is how much of TeX's memory you used:
+ 8415 strings out of 494561
+ 121848 string characters out of 6177454
+ 243492 words of memory out of 5000000
+ 11978 multiletter control sequences out of 15000+600000
+ 5843 words of font info for 25 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 35i,10n,37p,350b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.p
+fb>
+Output written on images.pdf (399 pages, 673994 bytes).
+PDF statistics:
+ 1416 PDF objects out of 1440 (max. 8388607)
+ 968 compressed objects within 10 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+

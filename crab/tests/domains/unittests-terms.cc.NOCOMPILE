@@ -1,0 +1,146 @@
+#include "../program_options.hpp"
+#include "../common.hpp"
+
+using namespace std;
+using namespace crab::analyzer;
+using namespace crab::cfg;
+using namespace crab::cfg_impl;
+using namespace crab::domain_impl;
+
+int main (int argc, char** argv) {
+  bool stats_enabled = false;
+  if (!crab_tests::parse_user_options(argc,argv,stats_enabled)) {
+      return 0;
+  }
+  variable_factory_t vfac;
+  typedef interval< z_number> interval_t;
+  
+  z_var x(vfac["x"], crab::INT_TYPE, 32);
+  z_var y(vfac["y"], crab::INT_TYPE, 32);
+  z_var w(vfac["w"], crab::INT_TYPE, 32);
+  z_var z(vfac["z"], crab::INT_TYPE, 32);
+
+  {
+    z_term_domain_t dom_left = z_term_domain_t::top ();
+    z_term_domain_t dom_right = z_term_domain_t::top ();
+    dom_left.assign(y, z_number(8));
+    dom_left.apply(OP_MULTIPLICATION, x, y, z_number(5));
+    dom_right.apply(OP_MULTIPLICATION, x, y, z_number(5));
+    z_term_domain_t l_join_r = dom_left | dom_right;
+    crab::outs() << dom_left << " | " << dom_right << " = " << l_join_r << "\n";
+  }
+  
+  {
+    z_term_domain_t dom_left = z_term_domain_t::top ();
+    dom_left.assign(x, z_number(1));
+    z_term_domain_t dom_right = dom_left;
+    dom_right.apply(OP_ADDITION, x, x, z_number(1));
+    z_term_domain_t l_join_r = dom_left | dom_right;
+    crab::outs() << dom_left << " | " << dom_right << " = " << l_join_r << "\n";
+    //  crab::outs() << dom_left;
+  }
+
+  {
+    z_term_domain_t inv = z_term_domain_t::top ();
+    inv.assign (x, 5);
+    inv.assign (y, 5);
+    inv.assign (z, 9);
+    std::vector<z_var> vs;
+    vs.push_back (x);
+    vs.push_back (y);
+    crab::outs() << "Before project " << inv << "\n";
+    inv.project(vs);
+    crab::outs() << "After project " << inv << "\n";
+  }
+  
+  {
+    z_term_domain_t dom_left = z_term_domain_t::top ();
+    z_term_domain_t dom_right = z_term_domain_t::top ();
+
+    // ({w = a0, x = a0, y = '+' (a0,a1), z = a1}, { x=5, w=5, z=3, y=8 })
+    dom_left.assign (x, 5);
+    dom_left.assign (w, x);
+    dom_left.assign (z, 3);
+    dom_left.apply(OP_ADDITION, y, x, z);
+    
+    // ({w = b0,  x = '+' (b0,b1), y = b0, z = b1}, {y=8, w=8,z=2,x=10 })
+    dom_right.assign (y, 8); 
+    dom_right.assign (w, y);
+    dom_right.assign (z, 2); 
+    dom_right.apply(OP_ADDITION, x, w, z);
+
+    // meet = ({x=y=w= '+' (c0,c1), z=c2},{_|_}) = _|_
+    crab::outs() << "Meet" << "\n" << dom_left << " \n " << dom_right << "\n"; 
+    z_term_domain_t l_meet_r = dom_left & dom_right;
+    crab::outs() << "Result=" << l_meet_r << "\n";
+  }
+
+  {
+    z_term_domain_t dom_left = z_term_domain_t::top ();
+    z_term_domain_t dom_right = z_term_domain_t::top ();
+
+    // ({w = a0, x = a0, y = '+' (a0,a1), z = a1}, {x=[5,8],w=[5,8],z=[1,10],y=[6,18]})
+    dom_left.set (x, interval_t (5,8));
+    dom_left.assign (w, x);
+    dom_left.set (z, interval_t (1,10));
+    dom_left.apply(OP_ADDITION, y, x, z);
+    
+    // ({w = b0,  x = '+' (b0,b1), y = b0, z = b1}, {y=[2,7],w=[2,7],z=[3,5],x=[5,12]})
+    dom_right.set (y, interval_t (2,7)); 
+    dom_right.assign (w, y);
+    dom_right.set (z, interval_t (3,5)); 
+    dom_right.apply(OP_ADDITION, x, w, z);
+
+    // meet = ({x=y=w= '+' (c0,c1), z=c2},{x=[5,8], y=[6,7], z=[3,5], w=[5,7]})
+    crab::outs() << "Meet" << "\n" << dom_left << " \n " << dom_right << "\n"; 
+    z_term_domain_t l_meet_r = dom_left & dom_right;
+    crab::outs() << "Result=" << l_meet_r << "\n";
+  }
+
+  {
+    z_term_domain_t dom = z_term_domain_t::top ();
+    z_var zero(vfac["v0"], crab::INT_TYPE, 32);
+    z_var one(vfac["v1"], crab::INT_TYPE, 32);
+
+    dom.set (zero, interval_t (0,0));
+    dom.set (one, interval_t (1,1));
+
+    dom.apply(OP_ADDITION, x, one, zero);
+    dom.apply(OP_ADDITION, y, zero, one);
+    z_lin_cst_t c1 (z_lin_t(x) == z_lin_t(y));
+    crab::outs() << "Added " << c1 << "\n";
+    crab::outs() << dom << "\n";
+    dom += c1;
+    crab::outs() << "Result=" << dom << "\n";
+    z_lin_cst_t c2 (z_lin_t(x) != z_lin_t(y));
+    crab::outs() << "Added " << c2 << "\n";
+    dom += c2;
+    crab::outs() << "Result=" << dom << "\n";
+  }
+
+  {
+    crab::outs () << "Test with arrays\n";
+    z_term_domain_t dom = z_term_domain_t::top ();
+    z_var a(vfac["A"], crab::ARR_INT_TYPE, 32);    
+    z_var x(vfac["x"], crab::INT_TYPE, 32);
+    z_var y(vfac["y"], crab::INT_TYPE, 32);
+    z_var z(vfac["z"], crab::INT_TYPE, 32);    
+
+    dom.array_store(a, 4, x, 5, false);
+    dom.array_store(a, 4, y, 42, false);
+    dom.array_load(z, a, 4, y);
+
+    crab::outs() << dom << "\n";    
+    z_lin_cst_t c1 (z_lin_t(z) == 42);
+    crab::outs() << "Added " << c1 << "\n";
+    dom += c1;
+    crab::outs() << "Result=" << dom << "\n";
+    
+    z_lin_cst_t c2 (z_lin_t(z) == 5);
+    crab::outs() << "Added " << c2 << "\n";
+    dom += c2;
+    crab::outs() << "Result=" << dom << "\n";    
+  }
+  
+  return 0;
+}

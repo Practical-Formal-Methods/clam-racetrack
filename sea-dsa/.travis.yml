@@ -1,0 +1,24 @@
+language: cpp
+cache: apt
+env:
+  matrix:
+     - os: linux
+       dist: trusty
+       language: generic
+services:
+  - docker
+
+install: true
+
+script:
+  ### build with docker
+  - docker build --build-arg UBUNTU=xenial --build-arg BUILD_TYPE=MinSizeRel --build-arg TRAVIS=true -t seadsa_xenial_build -f docker/seadsa-full-size-rel.Dockerfile .
+
+notifications:
+   slack: seahornteam:NAUqZmZHFFviPH4ktQbJXgKu
+   email:
+     recipients:
+      - seahorn-build@googlegroups.com
+     on_success: always
+     on_failure: always
+
