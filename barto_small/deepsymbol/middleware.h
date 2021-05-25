@@ -110,32 +110,46 @@ public:
         //Expects bigNN networks to be present in /agentsB
         if(network_path.rfind("/agentsB", 0) == 0){
             for( auto &it: bounds){
-                it.first /= 75;
-                it.second /= 75;
+                it.first /= 0.01;
+                it.second /= 0.01;
             }
         }
+
+        double max_low = bounds[0].first;
+        double max_high = bounds[0].second;
+        for(auto it: bounds){
+            if(it.first > max_low){
+                max_low = it.first;
+            }
+            if(it.second > max_high){
+                max_high = it.second;
+            }
+        }
+
         const double sum_up = std::accumulate(
             bounds.begin(),
             bounds.end(),
             0.0,
-            [](double res,std::pair<double, double> bound) -> double {
-                return double(res + std::exp(bound.second));
+            [max_high](double res,std::pair<double, double> bound) -> double {
+                return double(res + std::exp(bound.second - max_high));
         });
         const double sum_low = std::accumulate(
             bounds.begin(),
             bounds.end(),
             0.0,
-            [](double res,std::pair<double, double> bound) -> double {
-                return double(res + std::exp(bound.first));
+            [max_low](double res,std::pair<double, double> bound) -> double {
+                return double(res + std::exp(bound.first - max_low));
             });
-        //std::cout << sum_up << "===" << sum_low << std::endl;
+
+        double offset_low = max_low + log(sum_low);
+        double offset_high = max_high + log(sum_up);
         darguments res;
         std::transform(
             bounds.begin(),
             bounds.end(),
             std::back_inserter(res),
-            [sum_low,sum_up](std::pair<double, double> bound) {
-                return interval_division(std::exp(bound.first), std::exp(bound.second), 1/sum_low, 1/sum_up);//std::make_pair(std::exp(bound.first) / sum_low, std::exp(bound.second) / sum_up);
+            [sum_low,sum_up,offset_low,offset_high](std::pair<double, double> bound) {
+                return std::make_pair(std::exp(bound.first-offset_low), std::exp(bound.second - offset_high));
             });
         return res;
     }
