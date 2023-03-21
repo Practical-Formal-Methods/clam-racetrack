@@ -2,7 +2,7 @@
 
 This repository contains the code for Proof-of-Concept implementaion of our approach to verifying heterogenous software systems using a tightly bound verification process leveraging Abstract Interpretation. We call this approach Neuro-Aware Program Analysis and use it to verify reachability and crash avoidance for variants of the [Racetrack Benchmark](https://github.com/Practical-Formal-Methods/Racetrack-Benchmark). This was part of our submission to CAV'21 on Automated Safety Verification of Programs Invoking Neural Networks.
 
-This code is provided _as-is_ without detailed build instructions. For obtaining a working build and reproducing results presented in the paper we have provided docker images [here](https://hub.docker.com/r/practicalformalmethods/neuro-aware-verification). Once you obtain an image, you can read through the README at `/root/README.md` for detailed instructions on reproducing experiment results.
+This code is provided _as-is_ without detailed build instructions. For obtaining a working build and reproducing results presented in the paper we have provided docker images [here](https://zenodo.org/record/7756714#.ZBoW1YLMKJF). Once you obtain an image, you can read through the README at `/root/README.md` for detailed instructions on reproducing experiment results.
 
 #### Steps to get image
 
